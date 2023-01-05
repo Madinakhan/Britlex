@@ -4,31 +4,38 @@
 
 ## Dating 👍🏻
 
-## Questions
+## Git 👍🏻
 
-     ✅ [CSS] Flex vs Grid
+## Questions 👍🏻
+
+     ✅ [CSS] Flex vs Grid 👍🏻
      ✅ [CSS] Specificity
      ✅ [SASS] @mixin vs @extends [SASS]
-     ✅ [SASS] variables
+     ✅ [SASS] variables 👍🏻
      ✅ [JS] data-types
      ✅ [JS] functions
      ✅ [JS] coding.js
 
-## Plans
+## Plans 👍🏻
 
-     ✅ JS | TS
-     ✅ React
+     ✅ SASS
+     ✅ JS
+     ✅ React | TS
      ✅ Redux
 
-## JavaScript
+## JavaScript 👍🏻
 
-     ✅ Data types
+     ✅ Data types 👍🏻
      ✅ Function
-         🔷 function types
-         🔷 void function
-         🔷 return statement
-     ✅ Logical operators
-     ✅ Logical operators with non-boolean
+         🔷 function types 👍🏻
+         🔷 void function 👍🏻
+         🔷 return statement 👍🏻
+     ✅ Logical operators 👍🏻
+         🔷 &&
+         🔷 ||
+         🔷 !
+
+     ✅ Logical operators with non-boolean 👍🏻
         ✅ Falsy
             🎁 undefined
             🎁 null
@@ -37,3 +44,7 @@
             🎁 ''
             🎁 NAN -> not a number
         ✅ Truthy
+
+## Deploy site 👍🏻
+
+## Javascript deploy 👍🏻
