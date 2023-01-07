@@ -1,51 +1,58 @@
 # ---------- 07.01.23 ----------(45)
 
-## Checking Homeworks
+## Checking Homeworks 👍🏻
 
-## Coding JS
+## Coding JS 👍🏻
 
-## Type conversion
+## Type conversion 👍🏻
 
-## Type coercion
+## Type coercion 👍🏻
 
-## Truthy and falsy values
+## Truthy and falsy values 👍🏻
 
-## Equality Operators == vs. ===
+       ✅ null
+       ✅ NAN
+       ✅ 0
+       ✅ false
+       ✅ ""
+       ✅ undefined
+
+## Equality Operators == vs. === 👍🏻
 
        ✅ prompt
 
-## Switch statement
+## Switch statement 👍🏻
 
-## Statements and Expressions
+## Statements and Expressions 👍🏻
 
-## The conditional(Ternary) Operator
+## The conditional(Ternary) Operator 👍🏻
 
 ============= DOM =============
 
-## DOM
+## DOM -> (Document Object Model)
 
-       ✅ What is this DOM ?
-       ✅ Difference between DOM and HTML source code
-       ✅ simple examples
+       ✅ What is this DOM ? 👍🏻
+       ✅ Difference between DOM and HTML source code 👍🏻
+       ✅ simple examples 👍🏻
 
 ## DOM TREE and Nodes
 
-       ✅ Most using nodes
-           🔷 Element node
-           🔷 Text node
-           🔷 Comment node
-       ✅ Node types
-           🔷 https://developer.mozilla.org/en-US/docs/Web/API/Node/nodeType
+       ✅ Most using nodes 👍🏻
+           🔷 Element node 👍🏻
+           🔷 Text node 👍🏻
+           🔷 Comment node 👍🏻
+       ✅ Node types 👍🏻
+           🔷 https://developer.mozilla.org/en-US/docs/Web/API/Node/nodeType 👍🏻
 
 ## Change HTML codes
 
        ✅ Most using selectors
-           🔷 document.querySelector()
-           🔷 document.querySelectorAll()
-           🔷 document.getElementById()
-           🔷 document.getElementsByClassName()
+           🔷 document.querySelector() 👍🏻
+           🔷 document.querySelectorAll() 👍🏻
+           🔷 document.getElementById() 👍🏻
+           🔷 document.getElementsByClassName() 👍🏻
            🔷 document.getElementsByTagName()
-       ✅ Write Examples
+       ✅ Write Examples 👍🏻
 
 ## Children Nodes
 
