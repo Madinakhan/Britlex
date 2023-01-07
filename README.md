@@ -1,50 +1,92 @@
-# ---------- 05.01.23 ----------(44)
+# ---------- 07.01.23 ----------(45)
 
 ## Checking Homeworks
 
-## Dating 👍🏻
+## Coding JS
 
-## Git 👍🏻
+## Type conversion
 
-## Questions 👍🏻
+## Type coercion
 
-     ✅ [CSS] Flex vs Grid 👍🏻
-     ✅ [CSS] Specificity
-     ✅ [SASS] @mixin vs @extends [SASS]
-     ✅ [SASS] variables 👍🏻
-     ✅ [JS] data-types
-     ✅ [JS] functions
-     ✅ [JS] coding.js
+## Truthy and falsy values
 
-## Plans 👍🏻
+## Equality Operators == vs. ===
 
-     ✅ SASS
-     ✅ JS
-     ✅ React | TS
-     ✅ Redux
+       ✅ prompt
 
-## JavaScript 👍🏻
+## Switch statement
 
-     ✅ Data types 👍🏻
-     ✅ Function
-         🔷 function types 👍🏻
-         🔷 void function 👍🏻
-         🔷 return statement 👍🏻
-     ✅ Logical operators 👍🏻
-         🔷 &&
-         🔷 ||
-         🔷 !
+## Statements and Expressions
 
-     ✅ Logical operators with non-boolean 👍🏻
-        ✅ Falsy
-            🎁 undefined
-            🎁 null
-            🎁 0
-            🎁 false
-            🎁 ''
-            🎁 NAN -> not a number
-        ✅ Truthy
+## The conditional(Ternary) Operator
 
-## Deploy site 👍🏻
+============= DOM =============
 
-## Javascript deploy 👍🏻
+## DOM
+
+       ✅ What is this DOM ?
+       ✅ Difference between DOM and HTML source code
+       ✅ simple examples
+
+## DOM TREE and Nodes
+
+       ✅ Most using nodes
+           🔷 Element node
+           🔷 Text node
+           🔷 Comment node
+       ✅ Node types
+           🔷 https://developer.mozilla.org/en-US/docs/Web/API/Node/nodeType
+
+## Change HTML codes
+
+       ✅ Most using selectors
+           🔷 document.querySelector()
+           🔷 document.querySelectorAll()
+           🔷 document.getElementById()
+           🔷 document.getElementsByClassName()
+           🔷 document.getElementsByTagName()
+       ✅ Write Examples
+
+## Children Nodes
+
+       ✅ Write Examples
+
+## Sibling Nodes
+
+       ✅ Write Examples
+
+## How To Make Changes to the DOM
+
+       ✅ Creating New Nodes
+           🔷 createElement()
+           🔷 createTextNode()
+           🔷 textContent()
+           🔷 innerHTML()
+           🔷 https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML#security_considerations - (cross-site scripting (XSS) )
+           🔷 https://www.youtube.com/watch?v=EoaDgUgS6QA
+       ✅ Inserting Nodes into the DOM
+           🔷 appendChild()
+           🔷 insertBefore()
+           🔷 replaceChild()
+
+       ✅ Removing Nodes from the DOM
+           🔷 removeChild()
+           🔷 remove()
+       ✅ Removing Nodes from the DOM
+           🔷 removeChild()
+           🔷 remove()
+
+## How To Modify Attributes, Classes, and Styles in the DOM
+
+       ✅ Attributes functions
+           🔷 hasAttribute
+           🔷 getAttribute
+           🔷 setAttribute
+           🔷 removeAttribute
+       ✅ Modifying Classes
+           🔷 className
+           🔷 classList.add
+           🔷 classList.remove
+           🔷 classList.toggle
+           🔷 classList.replace
+           🔷 classList.remove
