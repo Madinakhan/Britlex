@@ -1,58 +1,6 @@
-# ---------- 07.01.23 ----------(45)
+# ---------- 10.01.23 ----------(46)
 
-## Checking Homeworks 👍🏻
-
-## Coding JS 👍🏻
-
-## Type conversion 👍🏻
-
-## Type coercion 👍🏻
-
-## Truthy and falsy values 👍🏻
-
-       ✅ null
-       ✅ NAN
-       ✅ 0
-       ✅ false
-       ✅ ""
-       ✅ undefined
-
-## Equality Operators == vs. === 👍🏻
-
-       ✅ prompt
-
-## Switch statement 👍🏻
-
-## Statements and Expressions 👍🏻
-
-## The conditional(Ternary) Operator 👍🏻
-
-============= DOM =============
-
-## DOM -> (Document Object Model)
-
-       ✅ What is this DOM ? 👍🏻
-       ✅ Difference between DOM and HTML source code 👍🏻
-       ✅ simple examples 👍🏻
-
-## DOM TREE and Nodes
-
-       ✅ Most using nodes 👍🏻
-           🔷 Element node 👍🏻
-           🔷 Text node 👍🏻
-           🔷 Comment node 👍🏻
-       ✅ Node types 👍🏻
-           🔷 https://developer.mozilla.org/en-US/docs/Web/API/Node/nodeType 👍🏻
-
-## Change HTML codes
-
-       ✅ Most using selectors
-           🔷 document.querySelector() 👍🏻
-           🔷 document.querySelectorAll() 👍🏻
-           🔷 document.getElementById() 👍🏻
-           🔷 document.getElementsByClassName() 👍🏻
-           🔷 document.getElementsByTagName()
-       ✅ Write Examples 👍🏻
+## Checking Homework
 
 ## Children Nodes
 
