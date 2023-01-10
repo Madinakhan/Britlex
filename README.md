@@ -1,12 +1,12 @@
 # ---------- 10.01.23 ----------(46)
 
-## Checking Homework
+## Checking Homework 👍🏻
 
-## Children Nodes
+## Children Nodes 👍🏻
 
        ✅ Write Examples
 
-## Sibling Nodes
+## Sibling Nodes 👍🏻
 
        ✅ Write Examples
 
@@ -17,7 +17,7 @@
            🔷 createTextNode()
            🔷 textContent()
            🔷 innerHTML()
-           🔷 https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML#security_considerations - (cross-site scripting (XSS) )
+           🔷 https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML#security_considerations - (cross-site scripting (XSS))
            🔷 https://www.youtube.com/watch?v=EoaDgUgS6QA
        ✅ Inserting Nodes into the DOM
            🔷 appendChild()
