@@ -1,26 +1,10 @@
-# ---------- 15.01.23 ----------(49)
+# ---------- 17.01.23 ----------(50)
 
-## How To Modify Attributes, Classes, and Styles in the DOM 👍🏻
-
-       ✅ Attributes functions
-           🔷 hasAttribute 👍🏻
-           🔷 getAttribute 👍🏻
-           🔷 setAttribute 👍🏻
-           🔷 removeAttribute 👍🏻
-
-       ✅ Modifying Classes
-           🔷 className 👍🏻
-           🔷 classList.add 👍🏻
-           🔷 classList.remove 👍🏻
-           🔷 classList.toggle 👍🏻
-           🔷 classList.replace 👍🏻
-
-       ✅ Modifying Styles 👍🏻
-       ✅ Spec 👍🏻
+## Checking Homeworks
 
 ## Events
 
-       ✅ How to add event handler  
+       ✅ How to add event handler
           🔷 Inline event handler
           🔷 Event handler properties
           🔷 Event listeners
@@ -48,5 +32,9 @@
        ✅ Capturing Phase
        ✅ Target Phase
        ✅ event.stopPropagation()
+
+## 3 - Event dispatch
+
+## 4 - Window Object
 
 ## [33 JavaScript Concepts](https://github.com/leonardomso/33-js-concepts)
