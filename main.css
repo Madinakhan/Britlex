@@ -3,8 +3,66 @@ body {
 	align-items: center;
 	justify-items: center;
 	height: 100vh;
-	background-color: #efed40;
 }
 h1 {
 	font-size: 80px;
 }
+
+.btn {
+	border: none;
+	padding: 0.5rem 1rem;
+	border-radius: 10px;
+	transition: 0.125s linear all;
+	cursor: pointer;
+}
+
+.btn:active {
+	transform: scale(0.95);
+}
+.btn-success {
+	background-color: rgb(50, 221, 64);
+	color: #000;
+}
+
+.btn-danger {
+	background-color: rgb(217, 24, 24);
+	color: #fff;
+}
+/* #body button#idBtn {
+	background-color: black;
+} */
+
+/* @media (max-width: 768px) {
+	body {
+		background-color: #efed40;
+	}
+}
+body {
+	/* background-color: black;
+}
+
+
+/*
+.list {
+	list-style-type: none;
+	display: flex;
+	gap: 0.5rem;
+}
+
+.list-item {
+	border: none;
+	padding: 0.25rem;
+	border-radius: 10px;
+	transition: 0.125s linear all;
+	cursor: pointer;
+	background-color: rgb(217, 24, 24);
+	color: #fff;
+}
+
+.list-item:active {
+	transform: scale(0.95);
+} */
+
+/* input[type="text"] {
+	background-color: red;
+} */

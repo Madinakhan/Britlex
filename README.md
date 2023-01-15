@@ -1,26 +1,26 @@
 # ---------- 15.01.23 ----------(49)
 
-## How To Modify Attributes, Classes, and Styles in the DOM
+## How To Modify Attributes, Classes, and Styles in the DOM 👍🏻
 
        ✅ Attributes functions
-           🔷 hasAttribute
-           🔷 getAttribute
-           🔷 setAttribute
-           🔷 removeAttribute
+           🔷 hasAttribute 👍🏻
+           🔷 getAttribute 👍🏻
+           🔷 setAttribute 👍🏻
+           🔷 removeAttribute 👍🏻
 
        ✅ Modifying Classes
-           🔷 className
-           🔷 classList.add
-           🔷 classList.remove
-           🔷 classList.toggle
-           🔷 classList.replace
-           🔷 classList.remove
+           🔷 className 👍🏻
+           🔷 classList.add 👍🏻
+           🔷 classList.remove 👍🏻
+           🔷 classList.toggle 👍🏻
+           🔷 classList.replace 👍🏻
 
-       ✅ Modifying Styles
+       ✅ Modifying Styles 👍🏻
+       ✅ Spec 👍🏻
 
 ## Events
 
-       ✅ How to add event handler
+       ✅ How to add event handler  
           🔷 Inline event handler
           🔷 Event handler properties
           🔷 Event listeners
