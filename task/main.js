@@ -11,3 +11,7 @@ btn.addEventListener("click", () => {
 
 	hexes.appendChild(button);
 });
+
+button.addEventListener("click", () => {
+	document.body.style.background = color;
+});
