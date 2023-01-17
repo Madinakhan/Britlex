@@ -4,22 +4,22 @@
 
 ## Events
 
-       ✅ How to add event handler
+       ✅ How to add event handler 👍🏻
           🔷 Inline event handler
           🔷 Event handler properties
           🔷 Event listeners
 
        ✅ Common Events
           🔷 Mouse Events
-               🎁 click
-               🎁 dblclick
-               🎁 mouseenter
-               🎁 mouseleave
-               🎁 mousemove
+               🎁 click 👍🏻
+               🎁 dblclick 👍🏻
+               🎁 mouseenter 👍🏻
+               🎁 mouseleave 👍🏻
+               🎁 mousemove 👍🏻
           🔷 Form Events
-               🎁 submit
-               🎁 focus
-               🎁 blur
+               🎁 submit 👍🏻
+               🎁 focus 👍🏻
+               🎁 blur 👍🏻
           🔷 Keyboard Events
                🎁 keydown
                🎁 keyup
@@ -38,3 +38,7 @@
 ## 4 - Window Object
 
 ## [33 JavaScript Concepts](https://github.com/leonardomso/33-js-concepts)
+
+## Coding JS
+
+## Practice
