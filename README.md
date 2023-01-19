@@ -2,43 +2,38 @@
 
 ## Checking Homeworks
 
-## Events
+## Values and Variables
 
-       ✅ How to add event handler 👍🏻
-          🔷 Inline event handler
-          🔷 Event handler properties
-          🔷 Event listeners
+## Variable name conventions
 
-       ✅ Common Events
-          🔷 Mouse Events
-               🎁 click 👍🏻
-               🎁 dblclick 👍🏻
-               🎁 mouseenter 👍🏻
-               🎁 mouseleave 👍🏻
-               🎁 mousemove 👍🏻
-          🔷 Form Events
-               🎁 submit 👍🏻
-               🎁 focus 👍🏻
-               🎁 blur 👍🏻
-          🔷 Keyboard Events
-               🎁 keydown
-               🎁 keyup
-               🎁 keypress
-          🔷 All Events :  https://developer.mozilla.org/en-US/docs/Web/API/Event
+## Data Types
 
-## Events Phase
+## Primitive Data types
 
-       ✅ Bubbling phase
-       ✅ Capturing Phase
-       ✅ Target Phase
-       ✅ event.stopPropagation()
+     ✅ Number
+     ✅ String
+     ✅ Boolean
+     ✅ Undefined
+     ✅ Null
 
-## 3 - Event dispatch
+## let && const && var
 
-## 4 - Window Object
+## Basic operators
 
-## [33 JavaScript Concepts](https://github.com/leonardomso/33-js-concepts)
+     ✅ Math operators
+     ✅ Assignment operators
+     ✅ Comparison operators
 
-## Coding JS
+## Coding Challenge
 
-## Practice
+     ✅ CALC BMI(Body Mass Index) BMI = weight / height ** 2
+          🔷 Save values variables: height and wight
+          🔷 calc BMI with formula
+          🔷 create markHigherBMI variables
+               🎁 TEST DATA 1: Mark: weight: 78kg, height: 1.69m || Kent : weight: 92kg, height: 1.95m
+               🎁 TEST DATA 2: Mark: weight: 95kg, height: 1.88m || Kent : weight: 85kg, height: 1.76m
+     ✅ swap algorithm
+
+## Strings and Template Literals
+
+## Coding JS Warmup-1
