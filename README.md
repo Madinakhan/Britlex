@@ -1,14 +1,14 @@
 # ---------- 19.01.23 ----------(51)
 
-## Checking Homeworks
+## Checking Homeworks 👍🏻
 
-## Values and Variables
+## Values and Variables 👍🏻
 
-## Variable name conventions
+## Variable name conventions 👍🏻
 
-## Data Types
+## Data Types 👍🏻
 
-## Primitive Data types
+## Primitive Data types 👍🏻
 
      ✅ Number
      ✅ String
@@ -18,18 +18,25 @@
 
 ## let && const && var
 
-## Basic operators
+     ✅ Hoisting 👍🏻
+     ✅ Temporal dead zone(let, const) 👍🏻
+     ✅ Scoping 👍🏻
+          🔷 Global scope -> full file
+          🔷 Function scope -> function (){}
+          🔷 Block scope -> {} || for(){}
 
-     ✅ Math operators
-     ✅ Assignment operators
-     ✅ Comparison operators
+## Basic operators 👍🏻
 
-## Coding Challenge
+     ✅ Math operators (%,+,-,++,--,*,/,*=,+=)
+     ✅ Assignment operators (=) 👍🏻
+     ✅ Comparison operators (>, <, >=, <=, ==, ===, !=, !==)
 
-     ✅ CALC BMI(Body Mass Index) BMI = weight / height ** 2
+## Coding Challenge 👍🏻
+
+     ✅ CALC BMI(Body Mass Index) BMI = weight / height ** 2 👍🏻
           🔷 Save values variables: height and wight
           🔷 calc BMI with formula
-          🔷 create markHigherBMI variables
+          🔷 create markResult variables
                🎁 TEST DATA 1: Mark: weight: 78kg, height: 1.69m || Kent : weight: 92kg, height: 1.95m
                🎁 TEST DATA 2: Mark: weight: 95kg, height: 1.88m || Kent : weight: 85kg, height: 1.76m
      ✅ swap algorithm
