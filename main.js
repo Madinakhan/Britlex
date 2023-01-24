@@ -103,6 +103,50 @@
 
 console.log("Lesson-52");
 
+// ------ Strings and Template Literals
+// ------- ✅ Using JS expression
+// let name = "Arslonbek";
+// let birthYear = 2001;
+// let currentYear = 2023;
+
+// const result = name + " yoshi " + (currentYear - birthYear) + " da";
+// const result = `${name} yoshi ${currentYear - birthYear} da`;
+// console.log(result);
+
+// ------- ✅ Multi line
+// let text = "Arslonbek \nyaxshi \nbola";
+// console.log(text);
+
+// let _text = `Arslonbek
+// yaxshi
+// bola
+// `;
+
+// console.log(_text);
+
+// const name = "Arslonbek";
+// const element = "<div><h1>Hello " + name + "</h1></div>";
+// console.log(element);
+
+// const _element = `<div><h1>Hello ${if()}${name}</h1></div>`;
+// console.log(_element);
+
+// function app() {
+// 	console.log("Hello World");
+// }
+
+// app();
+// app``;
+
+// -------- Statement vs Expression
+
+// let myAge = 22;
+// let carAge = 18;
+
+// let isAccess = myAge - carAge > 0;
+
+// console.log(isAccess);
+
 /**
  * Coding Challenge #2 :
  * Use the BMI example from Challenge #1, and the code you already wrote, and improve it.
@@ -114,8 +158,45 @@ console.log("Lesson-52");
  * Example: "Mark's BMI (28.3) is higher than Kent's (23.9)!"
  * Example: "Kent's BMI (28.3) is higher than Mark's (23.9)!"
  *
+ * Bonus-1: Name change
+ *
  */
+// let firstName = "Abror";
+// let secondName = "Arslonbek";
+// let markWeight = 200;
+// let markHeight = 2.5;
+// let markBMI = (markWeight / markHeight ** 2).toFixed(2);
 
+// let kentWeight = 95;
+// let kentHeight = 1.65;
+// let kentBMI = (kentWeight / kentHeight ** 2).toFixed(2);
+
+// let markResult = markBMI > kentBMI;
+// if (markResult) {
+// 	console.log(`${firstName}'s BMI(${markBMI}) is higher than ${secondName}'s! BMI(${kentBMI})`);
+// } else {
+// 	console.log(`${secondName}'s BMI(${kentBMI}) is higher than ${firstName}'s! BMI(${markBMI})`);
+// }
+
+// -------- Type Conversion and Coercion
+
+// ✅ Type Conversion
+// let a = -10;
+// let b = a.toString();
+// let value = !a;
+// console.log("a = ", a);
+// console.log("b = ", b);
+// console.log("value = ", value);
+
+// ✅ Type Coercion
+
+// let a = 10;
+// let b = "abc" - a;
+// console.log(b);
+// console.log(Boolean(10 / 0));
+
+let result = (true && "boburbek") || false || (false && "arslonbek");
+console.log(result);
 /**
  * Coding Challenge #3 :
  *

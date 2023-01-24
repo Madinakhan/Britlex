@@ -2,25 +2,31 @@
 
 ## Checking Homeworks
 
-## Strings and Template Literals
+## Strings and Template Literals 👍🏻
 
-      ✅ Using JS expression
-      ✅ Multi line
+      ✅ Using JS expression 👍🏻
+      ✅ Multi line 👍🏻
 
-## If && Else Statements
+## If && Else Statements 👍🏻
 
-## Statement vs Expression
+## Statement vs Expression 👍🏻
 
       ✅ https://www.joshwcomeau.com/javascript/statements-vs-expressions/
       ✅ https://www.youtube.com/watch?v=WVyCrI1cHi8&t=1s
 
-## Coding Challenge(2)
+## Coding Challenge(2) 👍🏻
 
-## Type Conversion and Coercion
+## Type Conversion and Coercion 👍🏻
 
-## Truthy and Falsy values
+## Truthy and Falsy values 👍🏻
 
-## Equality Operators == vs ===
+      ✅ false
+      ✅ 0
+      ✅ null
+      ✅ undefined
+      ✅ ""
+
+## Equality Operators == vs === 👍🏻
 
 ## Boolean Logic
 
