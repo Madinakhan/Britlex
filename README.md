@@ -1,32 +1,4 @@
-# ---------- 24.01.23 ----------(52)
-
-## Checking Homeworks
-
-## Strings and Template Literals 👍🏻
-
-      ✅ Using JS expression 👍🏻
-      ✅ Multi line 👍🏻
-
-## If && Else Statements 👍🏻
-
-## Statement vs Expression 👍🏻
-
-      ✅ https://www.joshwcomeau.com/javascript/statements-vs-expressions/
-      ✅ https://www.youtube.com/watch?v=WVyCrI1cHi8&t=1s
-
-## Coding Challenge(2) 👍🏻
-
-## Type Conversion and Coercion 👍🏻
-
-## Truthy and Falsy values 👍🏻
-
-      ✅ false
-      ✅ 0
-      ✅ null
-      ✅ undefined
-      ✅ ""
-
-## Equality Operators == vs === 👍🏻
+# ---------- 26.01.23 ----------(53)
 
 ## Boolean Logic
 
@@ -38,4 +10,20 @@
 
 ## Coding Challenge(3)
 
-## Coding JS Warmup-1
+## Strict Mode
+
+      ✅ Defined rule
+      ✅ Checking js keywords
+      ✅ https://medium.com/jp-tech/introduction-to-strict-mode-in-javascript-fb977bab697c
+
+## Functions
+
+      ✅ What is Function
+      ✅ Function types
+      ✅ calling && running && invoking function
+      ✅ Function Declarations vs Expressions
+      ✅ Arrow functions
+      ✅ Function calling other functions
+      ✅ Function Review
+
+## Coding JS

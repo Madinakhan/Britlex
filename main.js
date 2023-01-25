@@ -1,202 +1,4 @@
-// ------- Values and Variables
-// let name = "Coding JS";
-// // M[001] = "Coding JS"
-// console.log(name);
-
-// name = "Coding Bat";
-// // M[001] = "Coding Bat"
-// console.log(name);
-
-//------ Variable name conventions
-// let myName = 1;
-//-------Cases
-// Pascal Case: MyName = 20
-// Snake Case: my_name = 20
-// Kebab Case: my-name = 20
-// Camel Case: myName = 20
-
-// -----Primitive Data types
-
-// let a = 20;
-// a = 20 + 20 + 30 + 20;
-// console.log(a); // Number
-
-// let text = "Hello";
-// text += "World";
-// console.log(text); // String
-
-// let isOpen = true; // Boolean
-
-// if (isOpen === true) {
-// 	console.log("Dars bor");
-// } else {
-// 	console.log("Dars yoq");
-// }
-
-// let a = null; //
-// console.log(typeof a);
-
-//-------- let && const && var
-// console.log(a);
-// console.log(typeof a);
-// let a = 20;
-
-// function app(name) {
-// 	console.log("Hello " + name);
-// }
-// app("arslonbek");
-
-// var app;
-// console.log(app);
-// app();
-// var app = () => {};
-// ES5 -> Ecma Script 5(2005) (let && const)
-// ES6 -> Ecma Script 6(2015)
-// ES2021 -> Ecma Script 6(2015)
-
-// function init() {
-// 	for (let i = 0; i < 10; i++) {
-// 		console.log("i = ", i);
-// 	}
-// 	console.log(i);
-// }
-
-// init();
-
-// const person = {
-// 	name: "arslonbek",
-// };
-
-// console.log("person = ", person);
-
-// for(var i = 20;i ){
-// i += 20;
-// 	console.log(i);
-// }
-// console.log(i);
-
-// app();
-
-/**
- * Coding Challenge #1 :
- * Mark and Kent are trying to compare their BMI (Body Mass Index),
- * which is calculated using the formula:
- * BMI = mass / height ** 2
- *
- *
- * Task-1 : Store Mark's and Kent's mass and height in variables
- * Task-2 : Calculate both their BMIs using the formula (you can even implement both versions)
- * Task-3 : Create a Boolean variable 'markResult' containing information about whether Mark has a higher BMI than Kent
- *
- *
- */
-// let markWeight = 120;
-// let markHeight = 1.8;
-// let markBMI = markWeight / markHeight ** 2;
-
-// let kentWeight = 95;
-// let kentHeight = 1.65;
-// let kentBMI = kentWeight / kentHeight ** 2;
-
-// let markResult = markBMI > kentBMI;
-// console.log(markResult);
-
-console.log("Lesson-52");
-
-// ------ Strings and Template Literals
-// ------- ✅ Using JS expression
-// let name = "Arslonbek";
-// let birthYear = 2001;
-// let currentYear = 2023;
-
-// const result = name + " yoshi " + (currentYear - birthYear) + " da";
-// const result = `${name} yoshi ${currentYear - birthYear} da`;
-// console.log(result);
-
-// ------- ✅ Multi line
-// let text = "Arslonbek \nyaxshi \nbola";
-// console.log(text);
-
-// let _text = `Arslonbek
-// yaxshi
-// bola
-// `;
-
-// console.log(_text);
-
-// const name = "Arslonbek";
-// const element = "<div><h1>Hello " + name + "</h1></div>";
-// console.log(element);
-
-// const _element = `<div><h1>Hello ${if()}${name}</h1></div>`;
-// console.log(_element);
-
-// function app() {
-// 	console.log("Hello World");
-// }
-
-// app();
-// app``;
-
-// -------- Statement vs Expression
-
-// let myAge = 22;
-// let carAge = 18;
-
-// let isAccess = myAge - carAge > 0;
-
-// console.log(isAccess);
-
-/**
- * Coding Challenge #2 :
- * Use the BMI example from Challenge #1, and the code you already wrote, and improve it.
- *
- * Task-1 : Print a nice output to the console, saying who has the higher BMI.
- * The message is either "Mark's BMI is higher than Kent's!" or "Kent's BMI is higher than Mark's!"
- *
- * Task-2 : Use a template literal to include the BMI values in the outputs.
- * Example: "Mark's BMI (28.3) is higher than Kent's (23.9)!"
- * Example: "Kent's BMI (28.3) is higher than Mark's (23.9)!"
- *
- * Bonus-1: Name change
- *
- */
-// let firstName = "Abror";
-// let secondName = "Arslonbek";
-// let markWeight = 200;
-// let markHeight = 2.5;
-// let markBMI = (markWeight / markHeight ** 2).toFixed(2);
-
-// let kentWeight = 95;
-// let kentHeight = 1.65;
-// let kentBMI = (kentWeight / kentHeight ** 2).toFixed(2);
-
-// let markResult = markBMI > kentBMI;
-// if (markResult) {
-// 	console.log(`${firstName}'s BMI(${markBMI}) is higher than ${secondName}'s! BMI(${kentBMI})`);
-// } else {
-// 	console.log(`${secondName}'s BMI(${kentBMI}) is higher than ${firstName}'s! BMI(${markBMI})`);
-// }
-
-// -------- Type Conversion and Coercion
-
-// ✅ Type Conversion
-// let a = -10;
-// let b = a.toString();
-// let value = !a;
-// console.log("a = ", a);
-// console.log("b = ", b);
-// console.log("value = ", value);
-
-// ✅ Type Coercion
-
-// let a = 10;
-// let b = "abc" - a;
-// console.log(b);
-// console.log(Boolean(10 / 0));
-
-let result = (true && "boburbek") || false || (false && "arslonbek");
-console.log(result);
+console.log("Lesson-53");
 /**
  * Coding Challenge #3 :
  *
@@ -227,4 +29,32 @@ console.log(result);
  *      Winner : {teamName} winner 🏆
  *      durrang uchung : {teamName1} and {teamName2} winners 🏆
  *      xech kim yutmaganda : No winners 🥶
+ */
+
+/**
+ * Coding Challenge #4 :
+ *
+ * Ikki gimnastika jamoasiga, Delfinlar va Koalalarga qayting!
+ * Yangi gimnastika intizomi mavjud bo'lib, u boshqacha ishlaydi.
+ * Agar jamoa boshqa jamoaning o'rtacha ballidan kamida ikki baravar ko'p bo'lsa,
+ *  g'alaba qozonadi. Aks holda, hech bir jamoa g'alaba qozonmaydi!
+ *
+ * Task 1 : O'rtacha ballarini hisoblaydigan arrow funksiya yaratamiz (calcAverageScore)
+ *
+ * Task 2 : O'rtacha ballarini hisoblaymiz
+ *
+ * Task 3 : Har bir jamoaning o'rtacha ballini argument sifatida qabul qiladigan "checWinner" nomli expression funksiyasini yarating,
+ *          parametrlar sifatida ('avgDolhins' va 'avgKoalas').
+ *          Keyin yuqoridagi qoidaga muvofiq g'olibni g'alaba ochkolari bilan birga konsolga chiqazing.
+ *
+ * Task 4 : Durrang xolatni hisoblash shart emas
+ *
+ * Test Data :
+ *    ✅ Dolphins score 44, 23 and 71. Koalas score 65, 54 and 49
+ *    ✅ Dolphins score 85, 54  and 41. Koalas score  23, 34 and 27
+ *
+ * Result template:
+ *      Winner : {teamName} winner (31, 15) 🏆
+ *      xech kim yutmaganda : No winners 🥶
+ *
  */
