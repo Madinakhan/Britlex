@@ -1,10 +1,20 @@
-console.log("Lesson-53");
+// console.log("Lesson-53");
+
+// || -> chap tarafda falsy kelsa sakraydi
+// && -> chap tarafda truth kelsa sakraydi
+// let result = true || (false && "arslonbek");
+// //         01234
+// let str = "hello";
+// let char = "x";
+
+// let char = str[5] || "x";
+
 /**
  * Coding Challenge #3 :
  *
  * Gimnastika bo'yicha ikkita jamoa mavjud: Delfinlar(Dolphins) va Koalalar(Koalas).
- *  Ular bir-birlari bilan 3 marta raqobatlashadilar. Eng yuqori o'rtacha ball(averageScore) to'plagan g'olib kubokni(🏆) qo'lga kiritadi!
- *
+ * Ular bir-birlari bilan 3 marta raqobatlashadilar. Eng yuqori o'rtacha ball(averageScore)
+ * to'plagan g'olib kubokni(🏆) qo'lga kiritadi!
  *
  * Task 1 : O'rtacha ballarini hisoblaymiz (averageScore)
  *
@@ -23,13 +33,68 @@ console.log("Lesson-53");
  * Test Data :
  *    ✅ Dolphins score 96, 108 and 89. Koalas score 88, 91 and 110
  *    ✅ Dolphins score 97, 112 and 101. Koalas score 109, 95 and 123
- *    ✅  Dolphins score 97, 112 and 101. Koalas score 109, 95 and 106
+ *    ✅ Dolphins score 97, 112 and 101. Koalas score 109, 95 and 106
  *
+ * Formula :  averageScore  = (score1 + score2 + score3) / 3
  * Result template:
  *      Winner : {teamName} winner 🏆
- *      durrang uchung : {teamName1} and {teamName2} winners 🏆
+ *      durrang uchun : {teamName1} and {teamName2} winners 🏆
  *      xech kim yutmaganda : No winners 🥶
  */
+
+// var a = 20;
+// var b = 30;
+// console.log(a);
+// console.log(b);
+
+// var a = 60;
+// console.log(a);
+
+// function summa(a, a) {
+// 	return a + a;
+// }
+
+// const result = summa(10, 20);
+// console.log(result);
+// "use strict";
+
+// function foo() {
+// 	bar = 0;
+// 	return bar;
+// }
+
+// // Uncaught ReferenceError: bar is not defined
+// bar = 1;
+
+// foo();
+
+// var a = 20;
+
+// function app() {
+// 	if (a) console.log(a);
+
+// 	let a = 40;
+
+// 	console.log(a);
+// }
+
+// app();
+"use strict";
+
+// function hi(name) {
+// 	console.log(`hello ${name}`);
+// }
+
+// hi("Arslonbek");
+// hi("Boburbek");
+// hi("Jamshidbek");
+
+function app() {
+	return "arslonbek";
+}
+
+const name = app();
+console.log(name);
 
 /**
  * Coding Challenge #4 :
