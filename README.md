@@ -1,13 +1,6 @@
-# ---------- 28.01.23 ----------(54)
+# ---------- 28.01.23 ----------(55)
 
-## Functions
-
-      ✅ What is Function 👍🏻
-      ✅ Function types 👍🏻
-      ✅ calling && running && invoking function 👍🏻
-      ✅ Function Declarations vs Expressions 👍🏻
-      ✅ Function calling other functions 👍🏻
-      ✅ Function Review 👍🏻
+## Coding JS
 
 ## String Methods
 
@@ -44,5 +37,3 @@
       ✅ shift
 
 ## Coding Challenge(4)
-
-## Coding JS
