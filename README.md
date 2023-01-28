@@ -2,13 +2,12 @@
 
 ## Functions
 
-      ✅ What is Function
-      ✅ Function types
-      ✅ calling && running && invoking function
-      ✅ Function Declarations vs Expressions
-      ✅ Arrow functions
-      ✅ Function calling other functions
-      ✅ Function Review
+      ✅ What is Function 👍🏻
+      ✅ Function types 👍🏻
+      ✅ calling && running && invoking function 👍🏻
+      ✅ Function Declarations vs Expressions 👍🏻
+      ✅ Function calling other functions 👍🏻
+      ✅ Function Review 👍🏻
 
 ## String Methods
 
