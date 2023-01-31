@@ -1,24 +1,24 @@
 # ---------- 28.01.23 ----------(55)
 
-## Coding JS
+## Coding JS 👍🏻
 
 ## String Methods
 
-      ✅ charAt
-      ✅ concat
-      ✅ endsWith
-      ✅ startsWith
-      ✅ includes
-      ✅ indexOf
-      ✅ lastIndexOf
-      ✅ search
-      ✅ replace
+      ✅ charAt 👍🏻
+      ✅ concat 👍🏻
+      ✅ endsWith 👍🏻
+      ✅ startsWith 👍🏻
+      ✅ includes 👍🏻
+      ✅ indexOf 👍🏻
+      ✅ lastIndexOf 👍🏻
+      ✅ search 👍🏻
+      ✅ replace 👍🏻
       ✅ split
-      ✅ slice
-      ✅ substring
-      ✅ trim
-      ✅ toLowerCase
-      ✅ toUpperCase
+      ✅ slice 👍🏻
+      ✅ substring 👍🏻
+      ✅ trim 👍🏻
+      ✅ toLowerCase 👍🏻
+      ✅ toUpperCase 👍🏻
 
 ## Introduction to Arrays
 
