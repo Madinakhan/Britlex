@@ -1,24 +1,6 @@
-# ---------- 28.01.23 ----------(55)
+# ---------- 02.01.23 ----------(56)
 
-## Coding JS 👍🏻
-
-## String Methods
-
-      ✅ charAt 👍🏻
-      ✅ concat 👍🏻
-      ✅ endsWith 👍🏻
-      ✅ startsWith 👍🏻
-      ✅ includes 👍🏻
-      ✅ indexOf 👍🏻
-      ✅ lastIndexOf 👍🏻
-      ✅ search 👍🏻
-      ✅ replace 👍🏻
-      ✅ split
-      ✅ slice 👍🏻
-      ✅ substring 👍🏻
-      ✅ trim 👍🏻
-      ✅ toLowerCase 👍🏻
-      ✅ toUpperCase 👍🏻
+## Coding JS
 
 ## Introduction to Arrays
 
@@ -37,3 +19,9 @@
       ✅ shift
 
 ## Coding Challenge(4)
+
+## Objects
+
+      ✅ Introduction to Objects
+      ✅ Dot vs Bracket Notation
+      ✅ Object Methods
