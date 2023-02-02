@@ -2,14 +2,13 @@
 
 ## Coding JS
 
-## Introduction to Arrays
+## Introduction to Arrays 👍🏻
 
 ## Basic Array Operations(Methods)
 
-      ✅ Method vs Function
+      ✅ Method vs Function 👍🏻
       ✅ Crete simple forEach and map method
-      ✅ Crete simple forEach and map method
-      ✅ What is callback function
+      ✅ What is callback function 👍🏻
 
 ## Add and Remove Elements
 
