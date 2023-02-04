@@ -1,8 +1,6 @@
-# ---------- 02.01.23 ----------(56)
+# ---------- 04.01.23 ----------(57)
 
 ## Coding JS
-
-## Introduction to Arrays 👍🏻
 
 ## Basic Array Operations(Methods)
 
@@ -16,11 +14,14 @@
       ✅ unshift
       ✅ pop
       ✅ shift
+      ✅ forEach
+      ✅ map
 
-## Coding Challenge(4)
+✅ Coding Challenge (Dolphin vs Koala)
 
 ## Objects
 
       ✅ Introduction to Objects
       ✅ Dot vs Bracket Notation
       ✅ Object Methods
+      ✅ this keyword
