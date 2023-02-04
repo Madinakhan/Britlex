@@ -2,26 +2,27 @@
 
 ## Coding JS
 
-## Basic Array Operations(Methods)
+## Array
 
-      ✅ Method vs Function 👍🏻
-      ✅ Crete simple forEach and map method
-      ✅ What is callback function 👍🏻
+      ✅ Introduction to Arrays 👍🏻
+            🔷 Working simple array 👍🏻
+            🔷 Working matrix and x*y arrays 👍🏻
 
-## Add and Remove Elements
+      ✅ Basic Array Operations(Methods)
+            🔷 What is callback function 👍🏻
+            🔷 Crete simple forEach and map method
 
-      ✅ push
-      ✅ unshift
-      ✅ pop
-      ✅ shift
-      ✅ forEach
-      ✅ map
+      ✅ Add and Remove Elements
+            🔷 push
+            🔷 unshift
+            🔷 pop
+            🔷 shift
+            🔷 forEach
+            🔷 map
 
-✅ Coding Challenge (Dolphin vs Koala)
+## Object
 
-## Objects
-
-      ✅ Introduction to Objects
-      ✅ Dot vs Bracket Notation
+      ✅ Introduction Object
+      ✅ Dot vs. Bracket Notation
       ✅ Object Methods
       ✅ this keyword
