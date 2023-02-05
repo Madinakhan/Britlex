@@ -4,21 +4,21 @@
 
 ## Array
 
-      ✅ Introduction to Arrays
+      ✅ Introduction to Arrays 👍🏻
             🔷 Working simple array
             🔷 Working matrix and x*y arrays
 
       ✅ Basic Array Operations(Methods)
-            🔷 What is callback function
+            🔷 What is callback function 👍🏻
             🔷 Crete simple forEach and map method
 
       ✅ Add and Remove Elements
-            🔷 push
-            🔷 unshift
-            🔷 pop
-            🔷 shift
-            🔷 forEach
-            🔷 map
+            🔷 push 👍🏻
+            🔷 unshift 👍🏻
+            🔷 pop 👍🏻
+            🔷 shift 👍🏻
+            🔷 forEach 👍🏻 (HOF)
+            🔷 map (HOF)
 
 ## Object
 

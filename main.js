@@ -87,3 +87,178 @@
 // }
 
 // console.log(find());
+
+// HM_0001 = [10,50,40], HM_0002 = [10,20,50]
+// let a = [10, 20, 40]; // SM_a_001 = HM_0001
+// let b = a; // SM_b_002 = HM_0001
+// b[1] = 50; // HM_0001[1] = 50
+// b = [10, 20, 40]; // SM_b_002 = HM_0002
+// b[2] = 50; // HM_0002[2] = 50
+// console.log(a); // [10,50,40]
+// console.log(b); // [10,20,50]
+
+// console.log([] !== []);
+
+// Array Methods
+/**
+ * ✅ push -> array oxiridan element qoshish
+ *
+ */
+
+// // -------PUSH METHOD
+// let groups = ["pdp-g-8", "pdp-g-7"];
+// console.log(groups);
+//   groups.push("pdp-g-6", "pdp-g-5");
+// console.log(groups);
+
+// // -------POP METHOD
+// let groups = ["pdp-g-8", "pdp-g-7"];
+// console.log(groups);
+// const result = groups.pop();
+// console.log("result = ", result);
+
+// console.log(groups);
+
+// // -------SHIFT METHOD
+// let groups = ["pdp-g-8", "pdp-g-7"];
+// console.log(groups);
+// const result = groups.shift();
+// console.log("result = ", result);
+// console.log(groups);
+
+// -------UNSHIFT METHOD
+// let groups = ["pdp-g-8", "pdp-g-7"];
+// console.log(groups);
+// const result = groups.unshift("pdp-g-9");
+// console.log("result = ", result);
+// console.log(groups);
+
+// custom unshift function
+
+// const list = ["item-1", "item-2", "item-3", "item-4"];
+// function unshift(item) {
+// 	for (let i = list.length; i > 0; i--) {
+// 		list[i] = list[i - 1];
+// 	}
+
+// 	list[0] = item;
+
+// 	return list.length;
+// }
+
+// const result = unshift("item-0");
+// console.log(result);
+// console.log(list);
+
+// const nums = [10, 20, 30, 40];
+
+// nums.forEach(function (num, index) {
+// 	console.log(`call ${index + 1} -> num = ${num}`);
+// });
+
+// // Define a function that takes a function as an argument.
+// function getCapture(camera) {
+// 	// Invoke the passed function
+// 	camera();
+// }
+
+// // Invoke the function by passing a function as an argument
+// getCapture(function () {
+// 	console.log("Canon");
+// });
+
+// // Define a function that returns a function
+// function returnFunc() {
+// 	return function () {
+// 		console.log("Hi");
+// 	};
+// }
+
+// // Take the returned function in a variable.
+// const fn = returnFunc();
+// // Now invoke the returned function.
+// fn(); // logs 'Hi' in the console
+
+// // Alternatively - A bit odd syntax but good to know
+// returnFunc()(); // logs 'Hi' in the console
+
+// let str = "arslon"; // SM_str_001 = 'arslon'
+// console.log(str + "bek");
+// str = str + "bek";
+// console.log(str);
+// let list = [1, 2, 3];
+// list.push(20);
+
+// console.log(list);
+
+// let list = [1, 2, 3];
+// list.forEach(function (num, idx) {
+// 	console.log(`${idx} 🎁 ${num}`);
+// });
+
+// let list = [1, 2, 3];
+
+// function forEach(fun) {
+// 	for (let i = 0; i < list.length; i++) {
+// 		fun(list[i], i, list);
+// 	}
+// }
+
+// forEach(function (num, idx) {
+// 	console.log(`${idx} 🎁 ${num}`);
+// });
+
+/**
+ *
+ * @param {number[]} list
+ * @param {number} find
+ * @returns
+ */
+// function findMax(list, find) {
+// 	for (let item of list) {
+// 		if (item === find) return true;
+// 	}
+
+// 	return false;
+// }
+
+// console.log(findMax([10, 20, 30, 10, 55], 30));
+
+// function summa(a, b, c) {
+// 	return a + b + c;
+// }
+
+// const numbers = [10, 20, 30, 40, 50, 60];
+
+// // const result = summa(numbers[0], numbers[1], numbers[2]);
+// const result = summa(...numbers); // spread operation
+// console.log(result);
+
+// const powNums = nums.map(funct);
+
+const nums = [1, 2, 3, 4, 15];
+
+// function map(fun) {
+// 	const result = [];
+
+// 	for (let i = 0; i < nums.length; i++) {
+// 		const value = fun(nums[i], i);
+// 		result[i] = value;
+// 	}
+
+// 	return result;
+// }
+
+// const powNums = nums.map(function (num) {
+// 	return num ** 2;
+// });
+
+// console.log(nums);
+// console.log(powNums);
+
+const names = ["arslonbek-alimbayev", "odilbek-alimbayev", "boburbek-jamshidov"];
+const newNames = names.map(function (name) {
+	return name.split("-");
+});
+
+console.log(newNames);
