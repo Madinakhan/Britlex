@@ -1,10 +1,12 @@
 # ---------- 07.01.23 ----------(59)
 
-## Coding JS
+## Coding JS 👍🏻
+
+## Nullish Operation 👍🏻
 
 ## Array Method
 
-      ✅ HOF(Higher-Order Function)
+      ✅ Callback
       ✅ HOF(Higher-Order Function)
       ✅ Mutable Methods
             🔷 push

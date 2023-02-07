@@ -1,4 +1,5 @@
 "use strict";
+const clg = console.log;
 // // HM_0001 = [10,20,30], HM_0002 = [10,30,30]
 // let a = [10, 20, 30]; // SM_a_001 = HM_0001
 // let b = [10, 30, 20]; // SM_b_002 = HM_0002
@@ -263,4 +264,71 @@
 // console.log(newNames);
 
 /* ----------- 07.02.23(59) ------------ */
-console.log("Lesson-59");
+// console.log("Lesson-59");
+
+// const nums = [1, 2, 3];
+
+// console.log(nums[(0, 1, 2)]);
+
+// const age = 20;
+// const isAccess = age > 16;
+
+// const message = isAccess ? "Mumkin" : "Mumkin emas";
+
+// console.log(message);
+// Nullish Operation
+// let userName;
+// let b = userName ?? "arslonbek";
+
+// console.log(userName);
+// console.log(b);
+
+// function a() {}
+
+// function b(callback) {
+// }
+
+// b(a)
+
+// let groups = ["g-7", "g-8", "g-9"];
+// result = ["pdp-g-7", "pdp-g-8", "pdp-g-9"]
+
+// function test(group) {
+// 	return "pdp-" + group;
+// }
+// const result = groups.map(test);
+
+// clg(result);
+
+// function foo(fn) {
+// 	fn();
+// }
+
+// function bar() {
+// 	return "I AM BAR FUNCTION";
+// }
+
+// foo(bar);
+
+const list = [
+	["i am a teacher", "i am a doctor"],
+	["word fly", "word test fly"],
+	["pdp is big", "pdp is small", "pdp"],
+];
+
+// const result = [
+// 	["teacher a am i", "doctor a am i"],
+// 	["fly word", "fly test word"],
+// 	["pdp is big", "pdp is small", "pdp"],
+// ];
+
+const result = list.map(function (sub) {
+	return sub.map(function (item) {
+		return item.split(" ").reverse().join(" ");
+	});
+});
+clg(result);
+
+// clg("1-2-3".split("-"));
+// clg([1, 2, 3].reverse());
+// clg([1, 2, 3].join("-"));
