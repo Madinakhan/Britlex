@@ -1,24 +1,25 @@
-# ---------- 05.01.23 ----------(58)
+# ---------- 07.01.23 ----------(59)
 
 ## Coding JS
 
-## Array
+## Array Method
 
-      ✅ Introduction to Arrays 👍🏻
-            🔷 Working simple array
-            🔷 Working matrix and x*y arrays
+      ✅ HOF(Higher-Order Function)
+      ✅ HOF(Higher-Order Function)
+      ✅ Mutable Methods
+            🔷 push
+            🔷 pop
+            🔷 shift
+            🔷 unshift
+            🔷 sort
+            🔷 splice
+            🔷 splice
 
-      ✅ Basic Array Operations(Methods)
-            🔷 What is callback function 👍🏻
-            🔷 Crete simple forEach and map method
-
-      ✅ Add and Remove Elements
-            🔷 push 👍🏻
-            🔷 unshift 👍🏻
-            🔷 pop 👍🏻
-            🔷 shift 👍🏻
-            🔷 forEach 👍🏻 (HOF)
-            🔷 map (HOF)
+      ✅ Immutable Methods
+            🔷 forEach
+            🔷 map
+            🔷 filter
+            🔷 reduce
 
 ## Object
 

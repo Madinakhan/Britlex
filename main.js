@@ -1,5 +1,4 @@
 "use strict";
-// console.log("Lesson-58");
 // // HM_0001 = [10,20,30], HM_0002 = [10,30,30]
 // let a = [10, 20, 30]; // SM_a_001 = HM_0001
 // let b = [10, 30, 20]; // SM_b_002 = HM_0002
@@ -236,7 +235,7 @@
 
 // const powNums = nums.map(funct);
 
-const nums = [1, 2, 3, 4, 15];
+// const nums = [1, 2, 3, 4, 15];
 
 // function map(fun) {
 // 	const result = [];
@@ -256,9 +255,12 @@ const nums = [1, 2, 3, 4, 15];
 // console.log(nums);
 // console.log(powNums);
 
-const names = ["arslonbek-alimbayev", "odilbek-alimbayev", "boburbek-jamshidov"];
-const newNames = names.map(function (name) {
-	return name.split("-");
-});
+// const names = ["arslonbek-alimbayev", "odilbek-alimbayev", "boburbek-jamshidov"];
+// const newNames = names.map(function (name) {
+// 	return name.split("-");
+// });
 
-console.log(newNames);
+// console.log(newNames);
+
+/* ----------- 07.02.23(59) ------------ */
+console.log("Lesson-59");
