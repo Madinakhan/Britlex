@@ -5,7 +5,22 @@ console.log("-------FIND POINT------");
  * @param {number[]} points
  * @return {number}
  */
-function findPoint(nums, points) {}
+function findPoint(nums, points) {
+	if (nums.length === 0 || points.length === 0) return -1;
+
+	for (let i = 0; i < nums.length; i++) {
+		let isDiv = false;
+		for (let j = 0; j < points.length; j++) {
+			if (nums[i] % points[j] === 0) {
+				isDiv = true;
+				break;
+			}
+		}
+		if (!isDiv) return nums[i];
+	}
+
+	return -1;
+}
 
 console.log(findPoint([1, 3, 4, 11, 13, 55, 31, 42], [2, 5]) === 1);
 console.log(findPoint([1, 10, 1, 25, 4, 17], [2, 3, 4]) === 1);

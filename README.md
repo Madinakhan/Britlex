@@ -4,22 +4,21 @@
 
 ## Array Method
 
-      ✅ Callback
-      ✅ HOF(Higher-Order Function)
+      ✅ Callback 👍🏻
+      ✅ HOF(Higher-Order Function) 👍🏻
       ✅ Mutable Methods
-            🔷 push
-            🔷 pop
-            🔷 shift
-            🔷 unshift
+            🔷 push 👍🏻
+            🔷 pop 👍🏻
+            🔷 shift 👍🏻
+            🔷 unshift 👍🏻
             🔷 sort
-            🔷 splice
             🔷 splice
 
       ✅ Immutable Methods
-            🔷 forEach
-            🔷 map
+            🔷 forEach 👍🏻
+            🔷 map 👍🏻
             🔷 filter
-            🔷 reduce
+            🔷 reduce 👍🏻
 
 ## Object
 
