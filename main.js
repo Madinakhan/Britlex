@@ -411,12 +411,15 @@
 // HM_0001 = [20,30,40];
 // let a = [20, 30, 40]; // SM_a_001 = HM_0001
 // let b = [...a]; // SM_b_002 = HM_0002
-// b[1] = 50;
+// b[1] = 50;6
 // console.log(a);
 // console.log(b);
 
-let result = ["ab", "d", "a", "c"];
+// let result = ["ab", "d", "a", "c"];
 
-result.sort();
+// result.sort();
 
-console.log(result);
+// console.log(result);
+
+/* ----------- 12.02.23(62) ------------ */
+console.log("Lesson-62");

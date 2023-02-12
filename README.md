@@ -11,14 +11,22 @@
             🔷 pop 👍🏻
             🔷 shift 👍🏻
             🔷 unshift 👍🏻
-            🔷 sort
+            🔷 sort 👍🏻
             🔷 splice
 
       ✅ Immutable Methods
             🔷 forEach 👍🏻
             🔷 map 👍🏻
-            🔷 filter
             🔷 reduce 👍🏻
+            🔷 at
+            🔷 filter
+            🔷 every
+            🔷 some
+
+      ✅ Array Static Methods
+            🔷 Array.isArray
+            🔷 Array.from
+            🔷 Array.of
 
 ## Object
 
