@@ -12,16 +12,19 @@
             🔷 shift 👍🏻
             🔷 unshift 👍🏻
             🔷 sort 👍🏻
-            🔷 splice
+            🔷 splice 👍🏻
 
       ✅ Immutable Methods
             🔷 forEach 👍🏻
             🔷 map 👍🏻
             🔷 reduce 👍🏻
-            🔷 at
-            🔷 filter
-            🔷 every
-            🔷 some
+            🔷 at 👍🏻
+            🔷 filter 👍🏻
+            🔷 every 👍🏻
+            🔷 some 👍🏻
+            🔷 find 👍🏻
+            🔷 findIndex 👍🏻
+            🔷 indexOf 👍🏻
 
       ✅ Array Static Methods
             🔷 Array.isArray

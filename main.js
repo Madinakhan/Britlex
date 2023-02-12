@@ -423,3 +423,147 @@
 
 /* ----------- 12.02.23(62) ------------ */
 console.log("Lesson-62");
+
+// const input = [2, 3, 4, 5];
+// /**
+//  *------ MAP METHOD ------
+//  * powTwo:    output = [4,6,8,10]
+//  * powThree:  output = [6,9,12,15]
+//  * addPrefix: output = ['pdp-g-2','pdp-g-3','pdp-g-4','pdp-g-5']
+//  * addPrefixIdx: output = ['pdp-g-20','pdp-g-31','pdp-g-42','pdp-g-53']
+//  */
+
+// function powTwo(item) {
+// 	return 2 * item;
+// }
+// function powThree(item) {
+// 	return 3 * item;
+// }
+// function addPrefix(item) {
+// 	return `pdp-g-${item}`;
+// }
+// function addPrefixIdx(item, idx) {
+// 	return `pdp-g-${item}${idx}`;
+// }
+// const output = input.map(addPrefixIdx);
+// console.log(output);
+
+// const input = [2, 10, 22, 23, 11, 17, 19];
+
+// /**
+//  *------ FILTER METHOD ------
+//  * juft:   output = [2,10,22]
+//  * toq:    output = [23,11,17,19]
+//  * big20:  output = [22,23]
+//  * small20:  output = [2,10,11,17,19]
+//  */
+
+// const juft = (item) => item % 2 === 0;
+// const toq = (item) => item % 2 === 1;
+// const big20 = (item) => item > 20;
+// const small20 = (item) => item < 20;
+
+// const output = input.filter(small20);
+// console.log(output);
+
+// const input = [20, 40, 13, 22, 2, 8, 15, 77];
+
+// /**
+//  * REDUCE METHOD
+//  *  summa:   output = 197
+//  *  findMax: output = 77
+//  *  findMin: output = 2
+//  *
+//  */
+// // function customFindMax() {
+// // 	let max = 0;
+
+// // 	for (let item of input) {
+// // 		if (item > max) max = item;
+// // 	}
+
+// // 	return max;
+// // }
+
+// function summa(acc, curr) {
+// 	return acc + curr;
+// }
+
+// const findMax = (max, curr) => (curr > max ? curr : max);
+// const findMin = (min, curr) => (curr < min ? curr : min);
+
+// const output = input.reduce(findMin);
+// console.log(output);
+
+// const input = ["pdp", "google", "apple", "arslonbek"];
+
+/**
+ * SPLICE METHOD
+ * removeTwo: output = ['pdp', 'microsoft', 'amazon', 'arslonbek']
+ * removePDP: output = ['napa', 'google', 'apple', 'arslonbek']
+ * removeApple: output = ['pdp','google', 'amazon', 'amazon', 'arslonbek']
+ *
+ */
+
+/* removeTwo */
+// const output = input.splice(1, 2, "microsoft", "amazon");
+// console.log(output);
+// console.log(input);
+
+/* removePDP */
+// const output = input.splice(0, 1, "napa");
+// console.log(output);
+// console.log(input);
+
+/* removeApple */
+// const output = input.splice(2, 1, "amazon", "amazon");
+// console.log(output);
+// console.log(input);
+
+// const input = [10, 20, 30, 20];
+
+// console.log(input.at(-1));
+// console.log(input.at(-2));
+// console.log(input.at(-3));
+// console.log(input.at(-4));
+// console.log(input.at(0));
+// console.log(input.at(1));
+// console.log(input.at(2));
+// console.log(input.at(3));
+// console.log(input.at(-0));
+
+// const input = ["arslonbek", "--pdp-g-8", "google", "pdp-apple", "arslonbek", "pdp-apple"];
+
+/** IndexOf */
+// const idx = input.indexOf("pdp-g-8");
+// console.log(idx);
+
+/** lastIndexOf */
+// const lastIdx = input.lastIndexOf("pdp-apple");
+// console.log(lastIdx);
+
+/** findIndex */
+// const idx = input.findIndex(function (item) {
+// 	if (item.includes("pdp")) return true;
+// 	else return false;
+// });
+// console.log(idx);
+
+/** findIndex */
+// const lastIdx = input.findLastIndex(function (item) {
+// 	if (item.includes("pdp")) return true;
+// 	else return false;
+// });
+// console.log(lastIdx);
+
+// /** SOME METHOD */
+// const input = [10, 20, 22, 11, 33, 76, 77];
+
+// const output = input.some((item) => item % 3 === 0);
+// console.log(output);
+
+/** EVERY METHOD */
+// const input = [12, 21, 21, 12, 33, 78, 72];
+
+// const output = input.every((item) => item % 3 === 0);
+// console.log(output);
