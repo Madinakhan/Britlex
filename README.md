@@ -1,4 +1,4 @@
-# ---------- 11.02.23 ----------(61)
+# ---------- 14.02.23 ----------(63)
 
 ## Coding JS
 
@@ -35,7 +35,6 @@
 
       ✅ Introduction Object
       ✅ Dot vs. Bracket Notation
+      ✅ Explain HEAP and STACK memories for JS Objects
       ✅ Object Methods
       ✅ this keyword
-
-## [EXAMINE-5](https://code2307.notion.site/PDP-G-7-e7674b1bedd04fd7a9d349b3e5f00c13)

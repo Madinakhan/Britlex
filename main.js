@@ -421,8 +421,8 @@
 
 // console.log(result);
 
-/* ----------- 12.02.23(62) ------------ */
-console.log("Lesson-62");
+// /* ----------- 12.02.23(62) ------------ */
+// console.log("Lesson-62");
 
 // const input = [2, 3, 4, 5];
 // /**
@@ -567,3 +567,6 @@ console.log("Lesson-62");
 
 // const output = input.every((item) => item % 3 === 0);
 // console.log(output);
+
+/* ----------- 14.02.23(63) ------------ */
+console.log("Lesson-63");
