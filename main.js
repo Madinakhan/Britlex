@@ -735,23 +735,29 @@
 // console.log(a);
 // console.log(b);
 
+/**
+ * HM_0001 = { name: "arslonbek", age: 21, job: "teacher" }
+ *
+ *
+ */
 const person = {
 	name: "arslonbek",
 	age: 21,
-}; 
+}; // SM_person_001 = HM_0001
 
 function app(obj) {
+ //  SM_obj_001 =  HM_0001
 	if (obj === person) console.log("👍🏻 like 👍🏻");
 
-	obj.job = "teacher";
+	obj.job = "teacher"; // HM_0001.job = "teacher"
 
- return obj
+	return obj;
 }
 
-const myPerson = person;
-myPerson.job = "developer";
+const myPerson = person; // SM_myPerson_002 = HM_0001
+myPerson.job = "developer"; // HM_0001.job = "developer"
 
-// const result = app(myPerson)
-console.log(result === person);
-console.log(result === myPerson);
-console.log(person);
+const result = app(myPerson); // SM_result_003 = HM_0001
+console.log(result === person); // true
+console.log(result === myPerson); // true
+console.log(person); 
