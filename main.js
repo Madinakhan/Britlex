@@ -569,4 +569,189 @@
 // console.log(output);
 
 /* ----------- 14.02.23(63) ------------ */
-console.log("Lesson-63");
+// console.log("Lesson-63");
+
+// function squareUp(n) {
+// 	const result = new Array(n).fill(0);
+// 	return result.reduce((a, c, i) => {
+// 		let counter = 0;
+// 		return a.concat(new Array(n).fill(0).map((item, idx) => idx + 1));
+// 	}, []);
+// }
+
+// console.log([1, 2, 3, 4, 1, 2, 3, 0, 1, 2, 0, 0, 1, 0, 0, 0].reverse());
+// console.log(squareUp(4));
+
+//
+/**
+ *------ squareUp(4)------
+ * n = 4, result = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+ *
+ * first loop:
+ *   i = 3
+ *    second loop:
+ *    j = 3, 3 > 2.25 -> result = [0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0]
+ *   i = 7
+ *    second loop:
+ *    j = 7, 3 > 0.25 -> result = [0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0]
+ *
+ */
+
+// function find(n, idx) {}
+
+//   0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15
+//  [0, 0, 0, 1, 0, 0, 2, 1, 0, 3, 2,  1,  4,   3,  2,  1]
+
+// function maxMirror(nums) {
+// 	let a = nums.join("");
+// 	let b = nums.reverse().join("");
+// 	console.log(a);
+// 	console.log(b);
+// }
+
+// maxMirror([1, 2, 3, 8, 9, 3, 2, 1]);
+
+// Object
+/* ------ Introduction Object ----- */
+// const person = [
+//   "arslonbek",
+//   "alimbayev",
+//   2023-2001,
+//   'teacher',
+// ]
+// console.log(person[0]);
+
+// const _person = {
+//  name: "arslonbek",
+//  last: "alimbayev",
+//  age: 2023-2001,
+//  job: 'teacher',
+//  isAccess: true
+// }
+// console.log(_person['name']);
+
+// Tushunarli bolishi
+
+// const person1 = {
+// 	name: "arslonbek",
+// 	last: "alimbayev",
+// 	age: 2023 - 2001,
+// 	job: "teacher",
+// 	isAccess: true,
+// };
+// const person2 = {
+// 	name: "jamshidbek",
+// 	last: "alimbayev",
+// 	age: 2023 - 2001,
+// 	job: "teacher",
+// 	isAccess: true,
+// };
+
+// let name = "arslonbek";
+// let last = "alimbayev";
+// let age = 2023 - 2001;
+// let job = "teacher";
+// let isAccess = true;
+
+// let name2 = "jamshidbek";
+// let last2 = "alimbayev";
+// let age2 = 2023 - 2001;
+// let job2 = "teacher";
+// let isAccess2 = true;
+
+// let name3 = "boburbek";
+// let last3 = "alimbayev";
+// let age3 = 2023 - 2001;
+// let job3 = "teacher";
+// let isAccess3 = true;
+
+/* ------ Dot vs. Bracket Notation ----- */
+// const person = {
+// 	name: "arslonbek",
+// 	last: "alimbayev",
+// 	20: 21,
+// 	"my-job": "Teacher",
+// 	bos: "123",
+// 	isAccess: true,
+// 	key: "person-key",
+// };
+
+// const nums = [10, "arslonbek", false];
+// /** Dot Notation */
+// let key = "age";
+// const output = person.key;
+// console.log(output);
+
+/** Bracket Notation */
+// let key1 = "my";
+// let key2 = "job";
+// let output = person[`${key1}-${key2}`];
+// console.log(output);
+
+// person.any = "my any value";
+// person["my-any"] = "my any value bracket";
+
+// console.log(person);
+// console.log(person["20"]);
+
+/* Explain HEAP and STACK memories for JS Objects */
+
+/**
+ * HM_0001 = {
+               name: { first: "arslonbek", last: "alimbayev" },
+               job: "developer",
+             }
+ *
+ *
+ *
+ */
+// const a = {
+// 	name: {
+// 		first: "arslonbek",
+// 		last: "alimbayev",
+// 	},
+// 	job: "teacher",
+// }; // SM_a_001 = HM_0001
+
+// const b = a; // SM_b_002 = HM_0001
+
+// b.job = "developer"; // HM_0001.job = developer
+// a.name.first = "jamshidbek"; // HM_0001.name.first = jamshidbek
+
+// console.log(a);
+// console.log(b);
+
+// /**
+//  * HM_0001 = [10, HM_0002, 30]
+//  * HM_0002 = [20,40]
+//  * HM_0003 = [10, HM_0004, 30]
+//  * HM_0004 = [20,40]
+//  */
+
+// const a = [10, [20, 40], 30]; // HM_0001
+// const b = [...a]; //  HM_0003
+// b[1] = [20, 40];
+// b[1][0] = 50;
+// console.log(a);
+// console.log(b);
+
+const person = {
+	name: "arslonbek",
+	age: 21,
+}; 
+
+function app(obj) {
+	if (obj === person) console.log("👍🏻 like 👍🏻");
+
+	obj.job = "teacher";
+
+ return obj
+}
+
+const myPerson = person;
+myPerson.job = "developer";
+
+// const result = app(myPerson)
+console.log(result === person);
+console.log(result === myPerson);
+console.log(person);
