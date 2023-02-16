@@ -764,3 +764,116 @@
 
 /* ----------- 16.02.23(64) ------------ */
 // console.log("Lesson-64");
+
+// function countYZ(str) {
+// 	let counter = 0;
+// 	str = str.toLowerCase();
+
+// 	function isLetter(str) {
+// 		return str.length === 1 && str.match(/[a-z]/i);
+// 	}
+
+// 	for (let i = 1; i < str.length; i++) {
+// 		if (isLetter(str[i]) && i === str.length - 1) if (str[i] === "y" || str[i] === "z") counter++;
+
+// 		if (!isLetter(str[i]) && isLetter(str[i - 1])) {
+// 			if (str[i - 1] === "y" || str[i - 1] === "z") counter++;
+// 		}
+// 	}
+
+// 	return counter;
+// }
+
+// "".split()
+
+// function countYZ(str) {
+// 	let counter = 0;
+
+// 	let words = str.split(/[^a-z]/);
+// 	console.log(words);
+
+// 	for (let i = 0; i < words.length; i++) {
+// 		if (words[i].endsWith("y") || words[i].endsWith("z")) counter++;
+// 	}
+
+// 	return counter;
+// }
+
+// console.log(countYZ("!!day--yaz!!") === 2);
+
+// function gHappy(str) {
+// 	let words = str.replaceAll(/[^g]/g, "-");
+// 	console.log("words = ", words);
+
+// 	let splitted = words.split("-");
+// 	console.log("splitted = ", splitted);
+
+// 	let list = splitted.filter((item) => item) || [];
+// 	console.log(list);
+// 	return [].every((item) => item !== "g");
+// }
+
+// gHappy("xxggyygxx");
+
+// function gHappy(str) {
+// 	let text = str.replace(/gg+/g, "");
+// 	return !text.includes('g')
+// }
+
+// gHappy("xxggyygxx");
+
+// what is method
+// const input = ["pdp", "apple"];
+
+// console.log(input.slice(0, 1));
+// console.log(Array.isArray([]));
+
+// Challenge
+// function app(list) {
+// 	// ... your code
+// 	return list.flat(Infinity);
+// }
+
+// const output = app([1, 2, [3, 4, [5, 6, [1, 2]]]]);
+// console.log(output); // [1, 2, 3, 4, 5, 6]
+
+// let input = [1, 2];
+
+// console.log(typeof input);
+
+// Bracket notation
+// const person = { name: "Arslonbek", age: 20 };
+
+// console["log"](person["name"]);
+// console.log(person);
+// console.table(person);
+
+// const test = true;
+
+// let input = []; // new Array()
+// console.log(input);
+// let person = {}; // new Object()
+// let num = 20; // new Number()
+// let isAccess = true; // new Boolean()
+// let str = ""; // new String()
+
+// let a; //
+// console.log(a);
+
+// let a = [20];
+
+// a.concat(); // Method
+// Array.from();
+
+// const a = [1, 2, 3];
+// // const b = Array.from(a, (a) => a ** 3); // Cloning
+// const c = Array.from(true); // Cloning
+
+// // b[1] = 50;
+// console.log(a);
+// console.log(c);
+
+let a = [40, 12, 44];
+
+// let b = Array.of(a);
+console.log(b);
