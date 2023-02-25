@@ -1,26 +1,24 @@
 # ---------- 25.02.23 ----------(66)
 
-## Coding JS
+## Primitive type vs Reference type 👍🏻
 
-## Primitive type vs Reference type
+## Function && Object 👍🏻
 
-## Function && Object
-
-      ✅ bind
-      ✅ call
-      ✅ apply
+      ✅ bind 👍🏻
+      ✅ call 👍🏻
+      ✅ apply 👍🏻
       ✅ Factory function
       ✅ Constructor function
 
 ============= DOM =============
 
-## DOM -> (Document Object Model)
+## DOM -> (Document Object Model) 👍🏻
 
        ✅ What is this DOM ?
        ✅ Difference between DOM and HTML source code
        ✅ Simple example
 
-## DOM TREE and Nodes
+## DOM TREE and Nodes 👍🏻
 
        ✅ Most using nodes
            🔷 Element node
@@ -31,19 +29,19 @@
 
 ## Change HTML codes
 
-       ✅ Most using selectors
-           🔷 document.querySelector()
-           🔷 document.querySelectorAll()
-           🔷 document.getElementById()
-           🔷 document.getElementsByClassName()
-           🔷 document.getElementsByTagName()
+       ✅ Most using selectors 👍🏻
+           🔷 document.querySelector() 👍🏻
+           🔷 document.querySelectorAll() 👍🏻
+           🔷 document.getElementById() 👍🏻
+           🔷 document.getElementsByClassName() 👍🏻
+           🔷 document.getElementsByTagName() 👍🏻
+       ✅ Write Examples 👍🏻
+
+## Children Nodes 👍🏻
+
        ✅ Write Examples
 
-## Children Nodes
-
-       ✅ Write Examples
-
-## Sibling Nodes
+## Sibling Nodes 👍🏻
 
        ✅ Write Examples
 
