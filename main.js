@@ -34,14 +34,17 @@
  *
  *
  */
-const person = {
-	name: "Arslonbek",
-	age: 20,
-	run() {
-		console.log("this = ", this);
-	},
-}; // SM_person_001 = HM_0001
+// const person = {
+// 	name: "Arslonbek",
+// 	age: 20,
+// 	run() {
+// 		console.log("this = ", this);
+// 	},
+// }; // SM_person_001 = HM_0001
 
-person.run(); // HM_0001.HM_0002()
-const myRun = person.run; // SM_001_myRun = HM_0002
-myRun(); // HM_0002
+// person.run(); // HM_0001.HM_0002()
+// const myRun = person.run; // SM_001_myRun = HM_0002
+// myRun(); // HM_0002
+
+/* ----------- 25.02.23(66) ------------ */
+console.log("Lesson-66");
