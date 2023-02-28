@@ -1,0 +1,27 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	padding: 2rem;
+}
+
+body > .box {
+	width: 400px;
+}
+.parent {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	background-color: dodgerblue;
+	padding: 1rem;
+	width: 400px;
+}
+
+.box {
+	display: grid;
+	place-items: center;
+	font-size: 25px;
+	background-color: #efed40;
+	color: #000;
+	height: 100px;
+}
