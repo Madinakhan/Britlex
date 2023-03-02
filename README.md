@@ -1,27 +1,4 @@
-# ---------- 28.02.23 ----------(67)
-
-## Window Object 👍🏻
-
-       ✅ DOM (Document object model)
-       ✅ BOM (Browser object model)
-
-## How To Make Changes to the DOM
-
-       ✅ Creating New Nodes
-           🔷 createElement() 👍🏻
-           🔷 createTextNode() 👍🏻
-           🔷 textContent() 👍🏻
-           🔷 innerHTML() 👍🏻
-           🔷 https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML#security_considerations - (cross-site scripting (XSS) )
-           🔷 https://www.youtube.com/watch?v=EoaDgUgS6QA
-       ✅ Inserting Nodes into the DOM
-           🔷 appendChild() 👍🏻
-           🔷 insertBefore() 👍🏻
-           🔷 replaceChild() 👍🏻
-
-       ✅ Removing Nodes from the DOM 👍🏻
-           🔷 removeChild() 👍🏻
-           🔷 remove() 👍🏻
+# ---------- 02.03.23 ----------(68)
 
 ## How To Modify Attributes, Classes, and Styles in the DOM
 
@@ -37,3 +14,38 @@
            🔷 classList.toggle
            🔷 classList.replace
            🔷 classList.remove
+
+## Understanding Events in JavaScript
+
+       ✅ Inline Event Handler Attributes
+       ✅ Event Handler Properties
+       ✅ Event Listeners
+
+## Common Events
+
+       ✅ Mouse Events
+           🔷 click
+           🔷 dblclick
+           🔷 mouseenter
+           🔷 mouseleave
+           🔷 mousemove
+
+       ✅ Form Events
+           🔷 submit
+           🔷 focus
+           🔷 blur
+
+       ✅ Keyboard Events
+           🔷 keydown
+           🔷 keyup
+           🔷 keypress
+
+## [ALL EVENTS](https://developer.mozilla.org/en-US/docs/Web/API/Event)
+
+## [Event](https://developer.mozilla.org/en-US/docs/Web/API/Event)
+
+## Events Phase
+
+       ✅ Bubbling phase
+       ✅ Capturing Phase
+       ✅ Target Phase
