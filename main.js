@@ -100,14 +100,55 @@
 // console.dir(event.__proto__.__proto__.__proto__.__proto__);
 // console.dir(event.__proto__.__proto__.__proto__.__proto__.__proto__);
 
-const box = document.querySelector(".box");
-const nums = [-1, 1];
-box.addEventListener("mouseenter", function (event) {
-	const xPosition = nums[Math.floor(Math.random() * 2)] * Math.floor(Math.random() * 200) + event.clientX;
-	const yPosition = nums[Math.floor(Math.random() * 2)] * Math.floor(Math.random() * 200) + event.clientY;
-	console.log("x = ", xPosition);
-	console.log("y = ", yPosition);
+// const box = document.querySelector(".box");
+// const nums = [-1, 1];
+// box.addEventListener("mouseenter", function (event) {
+// 	const xPosition = nums[Math.floor(Math.random() * 2)] * Math.floor(Math.random() * 200) + event.clientX;
+// 	const yPosition = nums[Math.floor(Math.random() * 2)] * Math.floor(Math.random() * 200) + event.clientY;
+// 	console.log("x = ", xPosition);
+// 	console.log("y = ", yPosition);
 
-	box.style.left = xPosition + "px";
-	box.style.top = yPosition + "px";
-});
+// 	box.style.left = xPosition + "px";
+// 	box.style.top = yPosition + "px";
+// });
+
+// const loginForm = document.getElementById("login-form");
+// const username = document.getElementById("username");
+// const password = document.getElementById("password");
+
+// loginForm.addEventListener("submit", (e) => {
+// 	e.preventDefault();
+// 	const data = { username: username.value, password: password.value };
+// 	console.log("data = ", data);
+// });
+
+// loginForm.addEventListener("reset", (e) => {
+// 	console.log("value = ", e);
+// });
+
+// username.addEventListener("focus", (e) => {
+// 	// e.target.remove();
+// });
+
+// username.addEventListener("blur", (e) => {
+// 	console.log("input dan chiqdi");
+// });
+
+// const box = document.querySelector(".box");
+// const a = document.querySelector(".a");
+// const b = document.querySelector(".b");
+// const c = document.querySelector(".c");
+
+// box.addEventListener("click", (e) => {
+// 	console.log("Clicked box");
+// 	e.stopPropagation();
+// });
+// a.addEventListener("click", () => {
+// 	console.log("Clicked a btn");
+// });
+// b.addEventListener("click", () => {
+// 	console.log("Clicked b btn");
+// });
+// c.addEventListener("click", () => {
+// 	console.log("Clicked c btn");
+// });

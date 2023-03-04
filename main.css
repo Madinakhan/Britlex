@@ -31,9 +31,34 @@ h1 {
 	cursor: pointer;
 	user-select: none;
 	transform: translate(-50%, -50%);
+	width: 200px;
 }
 
 .box:active {
 	background-color: rgb(75, 73, 73);
-	transform: scale(0.96);
+	transform: scale(0.96) translate(-50%, -50%);
+}
+
+.center {
+	display: grid;
+	place-items: center;
+}
+
+.a {
+	width: 400px;
+	height: 400px;
+	padding: 0.5rem;
+	border: 5px solid rgb(12, 12, 12);
+}
+.b {
+	width: 300px;
+	height: 300px;
+	padding: 0.5rem;
+	border: 5px solid rgb(136, 41, 252);
+}
+.c {
+	width: 200px;
+	height: 200px;
+	padding: 1rem;
+	border: 5px solid rgb(208, 12, 71);
 }

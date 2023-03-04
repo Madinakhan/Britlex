@@ -9,12 +9,12 @@
            🔷 mouseleave 👍🏻
            🔷 mousemove 👍🏻
 
-       ✅ Form Events
+       ✅ Form Events 👍🏻
            🔷 submit
            🔷 focus
            🔷 blur
 
-       ✅ Keyboard Events
+       ✅ Keyboard Events 👍🏻
            🔷 keydown
            🔷 keyup
            🔷 keypress
@@ -23,7 +23,7 @@
 
 ## [Event](https://developer.mozilla.org/en-US/docs/Web/API/Event)
 
-## Events Phase
+## Events Phase 👍🏻
 
        ✅ Bubbling phase
        ✅ Capturing Phase
