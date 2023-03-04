@@ -1,3 +1,6 @@
+* {
+	box-sizing: border-box;
+}
 body {
 	background-color: #efed40;
 	height: 100vh;
@@ -7,4 +10,30 @@ body {
 }
 h1 {
 	font-size: 80px;
+}
+
+.parent {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.box {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	background-color: #000;
+	color: #fff;
+	padding: 1rem 2rem;
+	font-size: 30px;
+	transition: 0.03s linear transform;
+	cursor: pointer;
+	user-select: none;
+	transform: translate(-50%, -50%);
+}
+
+.box:active {
+	background-color: rgb(75, 73, 73);
+	transform: scale(0.96);
 }

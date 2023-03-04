@@ -1,34 +1,13 @@
-# ---------- 02.03.23 ----------(68)
-
-## How To Modify Attributes, Classes, and Styles in the DOM
-
-       ✅ Attributes functions
-           🔷 hasAttribute
-           🔷 getAttribute
-           🔷 setAttribute
-           🔷 removeAttribute
-       ✅ Modifying Classes
-           🔷 className
-           🔷 classList.add
-           🔷 classList.remove
-           🔷 classList.toggle
-           🔷 classList.replace
-           🔷 classList.remove
-
-## Understanding Events in JavaScript
-
-       ✅ Inline Event Handler Attributes
-       ✅ Event Handler Properties
-       ✅ Event Listeners
+# ---------- 04.03.23 ----------(69)
 
 ## Common Events
 
        ✅ Mouse Events
-           🔷 click
-           🔷 dblclick
-           🔷 mouseenter
-           🔷 mouseleave
-           🔷 mousemove
+           🔷 click 👍🏻
+           🔷 dblclick 👍🏻
+           🔷 mouseenter 👍🏻
+           🔷 mouseleave 👍🏻
+           🔷 mousemove 👍🏻
 
        ✅ Form Events
            🔷 submit
@@ -49,3 +28,5 @@
        ✅ Bubbling phase
        ✅ Capturing Phase
        ✅ Target Phase
+
+## Sudoku app v1
