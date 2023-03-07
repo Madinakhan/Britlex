@@ -1,10 +1,14 @@
 # ---------- 07.03.23 ----------(70)
 
-## Checking homeworks
+## Checking homeworks 👍🏻
+
+## Git and Github
+
+## Netlify
 
 ## Projects
 
-    ✅ Pomodoro focus
+    ✅ Pomodoro focus 👍🏻
     ✅ Pig game
     ✅ Tic Tac Toe
     ✅ Memory game v1
