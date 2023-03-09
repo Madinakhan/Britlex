@@ -4,6 +4,7 @@ import { FINISH_POINT, SWITCH_POINT } from "./constants.js";
 const newBtn = document.querySelector(".btn--new");
 const rollBtn = document.querySelector(".btn--roll");
 const holdBtn = document.querySelector(".btn--hold");
+const logoutBtn = document.querySelector(".btn--logout");
 const dice = document.querySelector(".dice");
 const players = document.querySelectorAll(".players");
 const scores = document.querySelectorAll(".player-score");
@@ -13,12 +14,6 @@ let winPlayer = null;
 
 // LOGIC VARIABLES
 let currentPlayer = 0;
-
-const name1 = prompt("Enter first player name");
-const name2 = prompt("Enter second player name");
-
-names[0].innerText = name1;
-names[1].innerText = name2;
 
 function togglePlayer() {
 	currentPlayer = currentPlayer === 0 ? 1 : 0;
@@ -73,15 +68,41 @@ function handleNew() {
 	}
 }
 
+function handleLogout() {
+	localStorage.removeItem("player1");
+	localStorage.removeItem("player2");
+	window.location.pathname = "/projects/pig-game";
+}
+
 // UI Functions
 function addListeners() {
 	rollBtn.addEventListener("click", handleRoll);
 	holdBtn.addEventListener("click", handleHold);
 	newBtn.addEventListener("click", handleNew);
+	logoutBtn.addEventListener("click", handleLogout);
 	window.addEventListener("keydown", ({ metaKey, code }) => {
 		const fun = metaKey ? handleHold : handleRoll;
 		if (code === "Enter") fun();
 	});
 }
 
-addListeners();
+function init() {
+	const player1 = localStorage.getItem("player1");
+	const player2 = localStorage.getItem("player2");
+	const name1 = player1 || prompt("Enter first player name");
+	const name2 = player2 || prompt("Enter second player name");
+
+	if (!player1) {
+		localStorage.setItem("player1", name1);
+	}
+	if (!player2) {
+		localStorage.setItem("player2", name2);
+	}
+
+	names[0].innerText = name1;
+	names[1].innerText = name2;
+
+	addListeners();
+}
+
+init();

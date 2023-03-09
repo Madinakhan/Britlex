@@ -10,7 +10,7 @@
     ✅ onNewGame logikasini qilish kerak (Rahmatulloh) 👍🏻
     ✅ Keyborad eventlarni qoshish kerak (Saidamirxoja) 👍🏻
     ✅ Playerlarni ismlarini sorash logikasi (Abdubosit) 👍🏻
-    ✅ Github ga joylashtirish (Abduvali)
-    ✅ Netlify ga deploy qilish (Nurbek)
-    ✅ Localstorage da player larni saqlash kerak (Komolxoja)
-    ✅ Logout logikasi(Rahmatulloh)
+    ✅ Github ga joylashtirish (Abduvali) 👍🏻
+    ✅ Netlify ga deploy qilish (Nurbek) 👍🏻
+    ✅ Localstorage da player larni saqlash kerak (Komolxoja) 👍🏻
+    ✅ Logout logikasi(Rahmatulloh) 👍🏻

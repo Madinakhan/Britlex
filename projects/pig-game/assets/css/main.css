@@ -117,7 +117,8 @@ body {
 }
 .container .main .center .new-game-btn,
 .container .main .center .roll-btn,
-.container .main .center .hold-btn {
+.container .main .center .hold-btn,
+.btn--logout {
 	padding: 10px 25px;
 	background-color: rgba(255, 255, 255, 0.6);
 	-webkit-backdrop-filter: blur(10px);
@@ -133,7 +134,8 @@ body {
 }
 .container .main .center .new-game-btn:active,
 .container .main .center .roll-btn:active,
-.container .main .center .hold-btn:active {
+.container .main .center .hold-btn:active,
+.btn--logout:active {
 	transform: scale(0.98) translateY(3px);
 }
 .container .main .center .center-bottom {
@@ -144,4 +146,12 @@ body {
 
 .dice[src=""] {
 	display: none;
+}
+
+.btn--logout {
+	position: absolute;
+
+	right: 100px;
+	bottom: 100px;
+	border: none;
 }
