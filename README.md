@@ -4,7 +4,7 @@
 
 ## Git and Github 👍🏻
 
-## Netlify 👍🏻
+## Netlify 👍🏻 
 
 ## Projects
 

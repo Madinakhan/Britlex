@@ -1,7 +1,7 @@
 "use strict";
 import { timeConvertor } from "./utils.js";
 const timer = document.querySelector(".main-time");
-const actionBtns = document.querySelectorAll(".main-menu-item");
+const menu = document.querySelector(".main-menu");
 const startBtn = document.getElementById("startBtn");
 
 let time = 1500;
@@ -24,31 +24,38 @@ function handleStart() {
 	}
 }
 
+function handleActionBtnClick(actionBtn) {
+	const currentTime = +actionBtn.getAttribute("time");
+	const isActive = actionBtn.classList.contains("active");
+
+	if (!isActive) {
+		const isYes = startBtn.classList.contains("active") ? confirm(`${actionBtn.innerText} 🧐 ? `) : true;
+
+		if (isYes) {
+			for (let btn of actionBtns) {
+				btn.classList.remove("active");
+			}
+
+			clearInterval(intervalID);
+			time = currentTime;
+			timer.innerText = timeConverter(time);
+			startBtn.classList.remove("active");
+			startBtn.innerText = `START`;
+			actionBtn.classList.add("active");
+		}
+	}
+}
+
 function init() {
 	startBtn.addEventListener("click", handleStart);
 
-	for (let btn of actionBtns) {
-		btn.addEventListener("click", function () {
-			const currentTime = +btn.getAttribute("time");
-			const isActive = btn.classList.contains("active");
+	menu.addEventListener("click", (event) => {
+		const target = event.target;
 
-			if (!isActive) {
-				const isYes = startBtn.classList.contains("active") ? confirm(`${btn.innerText} 🧐 ? `) : true;
-				if (isYes) {
-					for (let btn of actionBtns) {
-						btn.classList.remove("active");
-					}
-
-					clearInterval(intervalID);
-					time = currentTime;
-					timer.innerText = timeConvertor(time);
-					startBtn.classList.remove("active");
-					startBtn.innerText = "START";
-					btn.classList.add("active");
-				}
-			}
-		});
-	}
+		if (target.classList.contains("main-menu-item")) {
+			handleActionBtnClick(target);
+		}
+	});
 }
 
 init();
