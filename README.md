@@ -1,11 +1,16 @@
-# ---------- 11.03.23 ----------(72)(Examine-4)
+# ---------- 09.03.23 ----------(add-1)
 
-## Questions 👍🏻
+## Checking homeworks 👍🏻
 
-     ✅ find
-     ✅ search
-     ✅ sum
+## Git and Github 👍🏻
 
-## DOM (Password Generator) 👍🏻
+## Netlify 👍🏻
 
-     ✅ https://aleksfedotov.github.io/password-generator/
+## Projects
+
+    ✅ Pomodoro focus 👍🏻
+    ✅ Pig game
+    ✅ Tic Tac Toe
+    ✅ Memory game v1
+    ✅ Speed memory game
+    ✅ Quiz app
