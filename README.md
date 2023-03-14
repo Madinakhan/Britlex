@@ -1,10 +1,10 @@
-# ---------- 09.03.23 ----------(add-1)
+# ---------- 14.03.23 ----------(73)
 
-## Checking homeworks 👍🏻
+## Checking homeworks
 
-## Git and Github 👍🏻
+## Git and Github
 
-## Netlify 👍🏻
+## Netlify
 
 ## Projects
 
