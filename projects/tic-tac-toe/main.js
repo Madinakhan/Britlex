@@ -1,6 +1,6 @@
 "use strict";
 
-const boxes = document.querySelectorAll(".box");
+const container = document.querySelector(".container");
 
 let list = [
 	[0, 1, 2],
@@ -34,11 +34,22 @@ function checkWinner(board) {
 function handleClick(cell, board, idx, player, win, cells) {}
 
 function init() {
-	boxes.forEach((box) => {
+	const x = Math.floor(Math.random() * 20) || 4;
+	const y = Math.floor(Math.random() * 20) || 4;
+
+	for (let i = 0; i < x * y; i++) {
+		addBoard();
+	}
+	container.style.gridTemplateRows = `repeat(${x}, 1fr)`;
+	container.style.gridTemplateColumns = `repeat(${y}, 1fr)`;
+	const boards = document.querySelectorAll(".board");
+
+	boards.forEach((_board) => {
 		let player = "X";
 		let board = [];
-		const cells = box.querySelectorAll(".cell");
-		const win = box.querySelector(".win");
+		const cells = _board.querySelectorAll(".cell");
+		const win = document.createElement("div");
+		win.classList.add("winner");
 
 		cells.forEach((cell, idx) => {
 			cell.addEventListener("click", () => {
@@ -51,7 +62,8 @@ function init() {
 					if (isWinner) {
 						console.log("winner");
 						win.innerText = player;
-						cells.forEach((cell) => (cell.style.pointerEvents = "none"));
+						_board.appendChild(win);
+						_board.style.pointerEvents = "none";
 					}
 					if (isFinished) alert("===");
 					player = player === "X" ? "O" : "X";
@@ -59,6 +71,17 @@ function init() {
 			});
 		});
 	});
+}
+
+function addBoard() {
+	const board = document.createElement("div");
+	board.classList.add("board");
+	for (let i = 0; i < 9; i++) {
+		const cell = document.createElement("div");
+		cell.classList.add("cell");
+		board.appendChild(cell);
+	}
+	container.appendChild(board);
 }
 
 init();
