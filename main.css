@@ -8,3 +8,7 @@ body {
 h1 {
 	font-size: 80px;
 }
+
+body {
+	background-color: red;
+}

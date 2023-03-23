@@ -1,18 +1,32 @@
-# ---------- 18.03.23 ----------(74)
+# ---------- 23.03.23 ----------(75)
 
-## Checking homeworks
+## Git Commands
 
-## Git and Github
+    ✅ git init -
+    ✅ git add
+    ✅ git remote -
+    ✅ git status
+    ✅ git commit
+    ✅ git checkout
+    ✅ git push
+    ✅ git pull (fetch + merge)
+    ✅ git config
+    ✅ git fetch
+    ✅ git merge
+    ✅ git branch
+    ✅ git log
+    ✅ git clone
+    ------------
+    ✅ git stash 👍🏻
+    ✅ git diff
 
-## Netlify
+## Ignoring files
 
 ## Projects
 
     ✅ Pomodoro focus 👍🏻
-    ✅ Pig game
     ✅ Tic Tac Toe
+    ✅ Pig game
     ✅ Memory game v1
     ✅ Speed memory game
     ✅ Quiz app
-
-## [Projects](https://code2307.notion.site/Examine-4-0f92aa86dfbb49b280d54c3d97efbb6a)
