@@ -2,6 +2,7 @@
 
 const game = document.querySelector(".game");
 const historiesElm = document.querySelector(".histories");
+
 let list = [
 	[0, 1, 2],
 	[3, 4, 5],
@@ -25,13 +26,10 @@ function nextPlayer() {
 function handleCell(idx) {
 	const currentPlayer = nextPlayer();
 
-	
-	if (histories[idx]) {
-		console.log("histories[idx] = ", histories[idx]);
-		histories.splice(idx);
-	}
+	const currentHistory = histories[step];
+	if (currentHistory) histories.splice(step);
 
-	const newHistory = [...histories[histories.length - 1]];
+	const newHistory = [...histories[step - 1]];
 	newHistory[idx] = currentPlayer;
 	histories.push(newHistory);
 
@@ -55,9 +53,9 @@ function handleHistory(idx) {
 
 function renderBoard() {
 	const board = histories[step];
+
 	const wrapper = document.createElement("div");
 	wrapper.classList.add("wrapper");
-	const fragment = document.createDocumentFragment();
 
 	for (let i = 0; i < board.length; i++) {
 		const item = board[i];
@@ -68,10 +66,8 @@ function renderBoard() {
 		cell.disabled = !!item;
 		cell.addEventListener("click", () => handleCell(i));
 
-		fragment.appendChild(cell);
+		wrapper.appendChild(cell);
 	}
-
-	wrapper.appendChild(fragment);
 
 	const resetBtn = document.createElement("button");
 	resetBtn.innerText = "Reset";
