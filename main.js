@@ -1,2 +1,4 @@
 "use strict";
-console.log("Hello World");
+const board = document.querySelector(".board");
+
+function renderBoard() {}
