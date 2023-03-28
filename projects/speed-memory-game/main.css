@@ -18,6 +18,7 @@ body {
 	gap: 0.5rem;
 	padding: 0.5rem;
 	border-radius: 10px;
+	position: relative;
 }
 
 .cell {
@@ -78,4 +79,31 @@ body {
 }
 .active::before {
 	opacity: 1 !important;
+}
+
+.failed::before {
+	content: "😱 GAME OVER 😱";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	font-size: 50px;
+	background-color: #ff0000c5;
+	color: #fff;
+	display: grid;
+	place-items: center;
+	z-index: 100;
+	border-radius: 10px;
+}
+.winner::before {
+	content: "😇🥳 WINNER 🥳😇";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	font-size: 50px;
+	background-color: #28cd95;
+	color: #fff;
+	display: grid;
+	place-items: center;
+	z-index: 100;
+	border-radius: 10px;
 }
