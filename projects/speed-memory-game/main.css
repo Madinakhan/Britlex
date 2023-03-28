@@ -1,0 +1,81 @@
+* {
+	box-sizing: border-box;
+	user-select: none;
+}
+body {
+	display: grid;
+	height: 100vh;
+	margin: 0;
+	place-items: center;
+}
+
+.board {
+	display: grid;
+	width: 600px;
+	height: 600px;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	gap: 0.5rem;
+	padding: 0.5rem;
+	border-radius: 10px;
+}
+
+.cell {
+	background-color: #00ccff;
+	border-radius: 10px;
+	cursor: pointer;
+	font-size: 40px;
+	position: relative;
+}
+
+.cell::before,
+.cell::after {
+	content: "🎁";
+	transition: 0.3s linear opacity;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #efed40;
+	display: grid;
+	place-items: center;
+	font-size: 80px;
+	border-radius: 10px;
+	opacity: 0;
+}
+
+.cell::after {
+	content: "❌";
+	background-color: #000000;
+}
+
+.show::before {
+	animation: anime 1s linear 0.5s 1;
+	animation-fill-mode: forwards;
+}
+
+.error::after {
+	opacity: 1;
+	font-size: 60px;
+}
+
+@keyframes anime {
+	0% {
+		opacity: 0;
+	}
+	25% {
+		opacity: 1;
+	}
+	80% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+.active {
+	pointer-events: none;
+}
+.active::before {
+	opacity: 1 !important;
+}
