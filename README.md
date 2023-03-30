@@ -1,14 +1,6 @@
-# ---------- 30.03.23 ----------(79)
+# ---------- 01.04.23 ----------(80)
 
 ## Checking homeworks
-
-## Throw and exception
-
-## Try and Catch
-
-## Pure function
-
-## Deterministic function
 
 ## Projects
 
@@ -17,4 +9,5 @@
     ✅ Pig game 👍🏻
     ✅ Memory game v1 👍🏻
     ✅ Speed memory game 👍🏻
-    ✅ Quiz app
+    ✅ Quiz app  👍🏻
+    ✅ Quiz app  v2
