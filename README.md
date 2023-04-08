@@ -2,7 +2,7 @@
 
 ## Checking homeworks
 
-## Github Organization
+## Github Organization 👍🏻
 
 ## Projects
 
