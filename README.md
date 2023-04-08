@@ -12,4 +12,4 @@
     ✅ Memory game v1 👍🏻
     ✅ Speed memory game 👍🏻
     ✅ Quiz app  👍🏻
-    ✅ Quiz app  v2
+    ✅ Quiz app  v2 👍🏻
