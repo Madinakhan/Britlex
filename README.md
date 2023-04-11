@@ -15,7 +15,7 @@
     ✅ Backend && AJAX && Fetch
     ✅ Clean Code
 
-# Expression vs Statement
+# Expression vs Statement 👍🏻
 
 # JS OOP
 
@@ -30,4 +30,4 @@
 
 # [JS Interview questions (500)](https://github.com/sudheerj/javascript-interview-questions)
 
-## [Examine-5](https://bit.ly/3KO97lb)
+## [Examine-5](https://bit.ly/3KO97lb) 👍🏻
