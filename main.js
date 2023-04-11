@@ -35,5 +35,5 @@ box.jump();
 
 /** coding challenge */
 
-✅ bitta funksiya yarating
-✅ bir nechta object yarating (car, animal, fruit)
+// ✅ bitta funksiya yarating
+// ✅ bir nechta object yarating (car, animal, fruit)

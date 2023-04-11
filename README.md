@@ -1,4 +1,4 @@
-# ---------- 11.04.23 ----------(84)
+# ---------- 13.04.23 ----------(85)
 
 # JS Advanced
 
@@ -15,8 +15,6 @@
     ✅ Backend && AJAX && Fetch
     ✅ Clean Code
 
-# Expression vs Statement 👍🏻
-
 # JS OOP
 
     ✅ Object
@@ -29,5 +27,3 @@
     ✅ Inheritance
 
 # [JS Interview questions (500)](https://github.com/sudheerj/javascript-interview-questions)
-
-## [Examine-5](https://bit.ly/3KO97lb) 👍🏻
