@@ -65,32 +65,34 @@
 // const bool = new Boolean(false);
 // console.log(bool);
 
-function createFilm(name, price, createdDate, description) {
-	return {
-		name,
-		price,
-		createdDate,
-		description,
-		play() {
-			console.log(`${this.name} is playing...`);
-		},
-	};
-}
+// function createFilm(name, price, createdDate, description) {
+// 	return {
+// 		name,
+// 		price,
+// 		createdDate,
+// 		description,
+// 		play() {
+// 			console.log(`${this.name} is playing...`);
+// 		},
+// 	};
+// }
 
-const film = createFilm("Sherlock Holmes", 220, "10.03.2003", "Detective Film");
-console.log(film);
-film.play();
+// const film = createFilm("Sherlock Holmes", 220, "10.03.2003", "Detective Film");
+// console.log(film);
+// film.play();
 
-function Film(name, price, createdDate, description) {
-	this.name = name;
-	this.price = price;
-	this.createdDate = createdDate;
-	this.description = description;
-	this.play = function () {
-		console.log(`${this.name} is playing...`);
-	};
-}
+// function Film(name, price, createdDate, description) {
+// 	this.name = name;
+// 	this.price = price;
+// 	this.createdDate = createdDate;
+// 	this.description = description;
+// 	this.play = function () {
+// 		console.log(`${this.name} is playing...`);
+// 	};
+// }
 
-const film1 = new Film("Forsage", 2000, "10.11.2013", "Speed film");
-console.log(film1);
-film1.play();
+// const film1 = new Film("Forsage", 2000, "10.11.2013", "Speed film");
+// console.log(film1);
+// film1.play();
+
+/** 15.04.23(86) */

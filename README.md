@@ -1,4 +1,4 @@
-# ---------- 13.04.23 ----------(85)
+# ---------- 15.04.23 ----------(86)
 
 # JS Advanced
 
@@ -17,18 +17,24 @@
 
 # JS OOP
 
-    ✅ Object 👍🏻
-    ✅ this keyword 👍🏻
-    ✅ call && bind && apply function methods 👍🏻
+    ✅ Object
+    ✅ this keyword
+    ✅ call && bind && apply function methods
     ✅ Factory function
     ✅ Constructor function
     ✅ new keyword
     ✅ Abstraction
     ✅ Private Properties and Methods
     ✅ Getters and Setters
-    ✅ Object.defineProperty && Object.freeze && Object.hasOwnProperty
+    ✅ Object Static Methods
+           🍩 Object.defineProperty
+           🍩 Object.defineProperties 
+           🍩 Object.freeze
+           🍩 Object.hasOwnProperty 🗑️
+           🍩 Object.keys
+           🍩 Object.values
+           🍩 Object.entries
     ✅ Coding Challenge
-
     ✅ Class
     ✅ Constructor
     ✅ Inheritance
