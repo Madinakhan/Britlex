@@ -24,7 +24,7 @@
     ✅ Constructor function 👍🏻
     ✅ new keyword 👍🏻
     ✅ Abstraction 👍🏻
-    ✅ Private Properties and Methods
+    ✅ Private Properties and Methods 👍🏻
     ✅ Getters and Setters
     ✅ Object Static Methods
            🍩 Object.defineProperty

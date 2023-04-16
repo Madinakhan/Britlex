@@ -301,3 +301,7 @@ function Person(firstName, lastName) {}
 // console.log(person.fullName);
 // person.fullName = "Arslonbek Alimbaev";
 // console.log(person.fullName);
+
+let str = { key: "hellow" };
+const chars = [...str];
+console.log(chars);
