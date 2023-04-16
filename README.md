@@ -1,8 +1,8 @@
-# ---------- 15.04.23 ----------(86)
+# ---------- 16.04.23 ----------(86)
 
 # JS Advanced
 
-    ✅ Expression vs Statement
+    ✅ Expression vs Statement 👍🏻
     ✅ OOP && Object.create && Object.assign
     ✅ Prototype && Prototype Chain
     ✅ Functional Programming && Closure
@@ -17,18 +17,18 @@
 
 # JS OOP
 
-    ✅ Object
-    ✅ this keyword
-    ✅ call && bind && apply function methods
-    ✅ Factory function
-    ✅ Constructor function
-    ✅ new keyword
-    ✅ Abstraction
+    ✅ Object 👍🏻
+    ✅ this keyword 👍🏻
+    ✅ call && bind && apply function methods 👍🏻
+    ✅ Factory function 👍🏻
+    ✅ Constructor function 👍🏻
+    ✅ new keyword 👍🏻
+    ✅ Abstraction 👍🏻
     ✅ Private Properties and Methods
     ✅ Getters and Setters
     ✅ Object Static Methods
            🍩 Object.defineProperty
-           🍩 Object.defineProperties 
+           🍩 Object.defineProperties
            🍩 Object.freeze
            🍩 Object.hasOwnProperty 🗑️
            🍩 Object.keys

@@ -95,4 +95,209 @@
 // console.log(film1);
 // film1.play();
 
-/** 15.04.23(86) */
+/** 16.04.23(86) */
+
+/** Factory Function */
+// function createBox(name, color) {
+// 	return {
+// 		name,
+// 		color,
+// 		run() {
+// 			console.log(`${this.name} is running...`);
+// 		},
+// 	};
+// }
+
+// const blackBox = createBox("Black Box", "black");
+// console.log(blackBox);
+
+/* Constructor Function */
+/**
+ * ✅ pascal case da yoziladi
+ * ✅ new Box()
+ */
+
+// function Box(name, color) {
+// 	this.name = name;
+// 	this.color = color;
+
+// 	this.run = function () {
+// 		console.log(`${this.name} is running...`);
+// 	};
+// }
+
+// const whiteBox = new Box("White Box", "White");
+// console.log(whiteBox);
+
+/** CALL | BIND | APPLY -> function methods */
+
+/** CALL METHOD */
+// const person = {
+// 	name: "Kent",
+// 	age: 20,
+// 	salary: 2000,
+// 	run() {
+// 		console.log(`${this?.name} is running...`);
+
+// 		function jump() {
+// 			console.log(`${this?.name} is jumping...`);
+// 		}
+
+// 		jump.call(this);
+// 	},
+// };
+
+// const book = {
+// 	name: "Sherlock Holmes",
+// };
+
+// person.run();
+
+// HOF (Higher Order Function)
+
+// const items = [10, 15, 25].filter((num) => num % 2 === 1);
+// console.log(items);
+
+// function createIncrement() {
+// 	let counter = 0;
+// 	return function () {
+// 		console.log("counter = ", ++counter);
+// 	};
+// }
+
+// const increment = createIncrement();
+// increment();
+// increment();
+// increment();
+// increment();
+// increment();
+
+/** BIND METHOD */
+
+// const person = {
+// 	name: "Kent",
+// 	run() {
+// 		console.log(`${this?.name} is running...`);
+// 	},
+// };
+
+// const book = { name: "Sherlock Holmes" };
+
+/** Custom bind function */
+// function bind(fun, obj) {
+// 	return function () {
+// 		fun.call(obj);
+// 	};
+// }
+
+// const fn = person.run.bind(book);
+// fn();
+
+// const car = {
+// 	name: "MBW",
+// 	run() {
+// 		console.log(`${this.name} is running...`);
+// 		this.jump.apply(car, ["CAR", "CAR-SUFFIX"]);
+// 		this.jump.call(car, "CAR", "CAR-SUFFIX");
+// 		this.jump();
+// 		//   2
+// 	},
+// };
+
+// const fruit = {
+// 	name: "Banana",
+// 	jump(prefix = "FRUIT", suffix = "FRUIT") {
+// 		console.log(`${prefix} : ${this.name} is jumping... ${suffix}`);
+// 	},
+// };
+
+// car.run.call(fruit);
+
+// Banana is running...
+// BMW is jumping...
+// Banana is jumping...
+
+// function createIncrement() {
+// 	let counter = 0;
+// 	return function () {
+// 		console.log("counter = ", ++counter);
+// 	};
+// }
+
+// const increment = createIncrement();
+// increment();
+// increment();
+// increment();
+// increment();
+// increment();
+
+// function Watch() {
+// 	let isStart = false;
+// 	this.start = function () {
+// 		if (isStart) {
+// 			console.error("❌ watch already started");
+// 		} else {
+// 			isStart = true;
+// 			console.log("✅ watch started");
+// 		}
+// 	};
+// 	this.stop = function () {
+// 		if (isStart) {
+// 			isStart = false;
+// 			console.log("✅ watch stopped");
+// 		} else {
+// 			console.error("❌ watch already stopped");
+// 		}
+// 	};
+// }
+
+// const watch = new Watch();
+// watch.start(); // ✅ watch started
+// watch.stop(); //  ✅ watch stopped
+// watch.stop(); //  ❌ watch already stopped
+// watch.stop(); //  ❌ watch already stopped
+// watch.start(); // ✅ watch started
+// watch.start(); // ❌ watch already started
+
+/** Private Properties and Methods */
+
+// function Person() {
+// 	let firstName = "Kent";
+// 	let lastName = "John";
+
+// 	this.getFullName = function () {
+// 		return firstName + " " + lastName;
+// 	};
+
+// 	this.setFullName = function (value) {
+// 		const items = value.split(" ");
+// 		firstName = items[0];
+// 		lastName = items[1];
+// 	};
+// }
+
+// const person = new Person();
+// console.log(person.getFullName());
+// person.setFullName("Mark Twin");
+// console.log(person.getFullName());
+
+const person = {
+	firstName: "Kent",
+	lastName: "Mark",
+	get fullName() {
+		console.log("calling getter ");
+		return this.firstName + " " + this.lastName;
+	},
+	set fullName(value) {
+		console.log("calling setter ");
+		const [firstName, lastName] = value.split(" ");
+		this.firstName = firstName;
+		this.lastName = lastName;
+	},
+};
+
+function Person(firstName, lastName) {}
+// const person = new Person("Kent", "Mark");
+// console.log(person.fullName);
+// person.fullName = "Arslonbek Alimbaev";
+// console.log(person.fullName);
