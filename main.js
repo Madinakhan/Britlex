@@ -1,250 +1,339 @@
-"use strict";
+// "use strict";
 
-/* EXPRESSION and STATEMENT */
-// const isPaid = true;
-// const status = isPaid ? "success" : "failure";
+// /* EXPRESSION and STATEMENT */
+// // const isPaid = true;
+// // const status = isPaid ? "success" : "failure";
 
-// function calc(a, b) {
-// 	a = a ** 2;
-// 	b = b ** 2;
-// 	return a + b;
-// }
+// // function calc(a, b) {
+// // 	a = a ** 2;
+// // 	b = b ** 2;
+// // 	return a + b;
+// // }
 
-// const result = calc(2, 3);
+// // const result = calc(2, 3);
 
-// const person = {
-// 	firstName: "Jamshidbek",
-// 	age: 21,
-// 	job: "teacher",
-// 	run() {
-// 		console.log(`${this?.firstName} is moving...`);
-// 	}, // 0002.0001()
-// };
+// // const person = {
+// // 	firstName: "Jamshidbek",
+// // 	age: 21,
+// // 	job: "teacher",
+// // 	run() {
+// // 		console.log(`${this?.firstName} is moving...`);
+// // 	}, // 0002.0001()
+// // };
 
-// const box = {
-// 	firstName: "Box-1",
-// 	jump: person.run, // 0003.0001
-// };
-// const fruit = {
-// 	firstName: "Box-1",
-// 	jump: box.run, // 0003.0001
-// };
+// // const box = {
+// // 	firstName: "Box-1",
+// // 	jump: person.run, // 0003.0001
+// // };
+// // const fruit = {
+// // 	firstName: "Box-1",
+// // 	jump: box.run, // 0003.0001
+// // };
 
-// person.run();
-// box.jump();
+// // person.run();
+// // box.jump();
 
-/** coding challenge */
+// /** coding challenge */
 
-// ✅ bitta funksiya yarating
-// ✅ bir nechta object yarating (car, animal, fruit)
+// // ✅ bitta funksiya yarating
+// // ✅ bir nechta object yarating (car, animal, fruit)
 
-/* 13.04.23(85) */
+// /* 13.04.23(85) */
 
-// function String1(value) {
-// 	this.value = value;
-// }
+// // function String1(value) {
+// // 	this.value = value;
+// // }
 
-// String1.prototype.repeat = function (count) {
-// 	let result = "";
-// 	for (let i = 0; i < count; i++) {
-// 		result += this.value;
-// 	}
+// // String1.prototype.repeat = function (count) {
+// // 	let result = "";
+// // 	for (let i = 0; i < count; i++) {
+// // 		result += this.value;
+// // 	}
 
-// 	return "Hello World";
-// };
+// // 	return "Hello World";
+// // };
 
-// const str = new String("arslonbek");
-// console.log(str.repeat());
+// // const str = new String("arslonbek");
+// // console.log(str.repeat());
 
-// const str1 = new String1("Boburbek");
-// console.log(str1);
+// // const str1 = new String1("Boburbek");
+// // console.log(str1);
 
-// const num = new Number(20);
-// console.log(num);
+// // const num = new Number(20);
+// // console.log(num);
 
-// const bool = new Boolean(false);
-// console.log(bool);
+// // const bool = new Boolean(false);
+// // console.log(bool);
 
-// function createFilm(name, price, createdDate, description) {
-// 	return {
-// 		name,
-// 		price,
-// 		createdDate,
-// 		description,
-// 		play() {
-// 			console.log(`${this.name} is playing...`);
-// 		},
-// 	};
-// }
+// // function createFilm(name, price, createdDate, description) {
+// // 	return {
+// // 		name,
+// // 		price,
+// // 		createdDate,
+// // 		description,
+// // 		play() {
+// // 			console.log(`${this.name} is playing...`);
+// // 		},
+// // 	};
+// // }
 
-// const film = createFilm("Sherlock Holmes", 220, "10.03.2003", "Detective Film");
-// console.log(film);
-// film.play();
+// // const film = createFilm("Sherlock Holmes", 220, "10.03.2003", "Detective Film");
+// // console.log(film);
+// // film.play();
 
-// function Film(name, price, createdDate, description) {
-// 	this.name = name;
-// 	this.price = price;
-// 	this.createdDate = createdDate;
-// 	this.description = description;
-// 	this.play = function () {
-// 		console.log(`${this.name} is playing...`);
-// 	};
-// }
+// // function Film(name, price, createdDate, description) {
+// // 	this.name = name;
+// // 	this.price = price;
+// // 	this.createdDate = createdDate;
+// // 	this.description = description;
+// // 	this.play = function () {
+// // 		console.log(`${this.name} is playing...`);
+// // 	};
+// // }
 
-// const film1 = new Film("Forsage", 2000, "10.11.2013", "Speed film");
-// console.log(film1);
-// film1.play();
+// // const film1 = new Film("Forsage", 2000, "10.11.2013", "Speed film");
+// // console.log(film1);
+// // film1.play();
 
-/** 16.04.23(86) */
+// /** 16.04.23(86) */
 
-/** Factory Function */
-// function createBox(name, color) {
-// 	return {
-// 		name,
-// 		color,
-// 		run() {
-// 			console.log(`${this.name} is running...`);
-// 		},
-// 	};
-// }
+// /** Factory Function */
+// // function createBox(name, color) {
+// // 	return {
+// // 		name,
+// // 		color,
+// // 		run() {
+// // 			console.log(`${this.name} is running...`);
+// // 		},
+// // 	};
+// // }
 
-// const blackBox = createBox("Black Box", "black");
-// console.log(blackBox);
+// // const blackBox = createBox("Black Box", "black");
+// // console.log(blackBox);
 
-/* Constructor Function */
-/**
- * ✅ pascal case da yoziladi
- * ✅ new Box()
- */
+// /* Constructor Function */
+// /**
+//  * ✅ pascal case da yoziladi
+//  * ✅ new Box()
+//  */
 
-// function Box(name, color) {
-// 	this.name = name;
-// 	this.color = color;
+// // function Box(name, color) {
+// // 	this.name = name;
+// // 	this.color = color;
 
-// 	this.run = function () {
-// 		console.log(`${this.name} is running...`);
-// 	};
-// }
+// // 	this.run = function () {
+// // 		console.log(`${this.name} is running...`);
+// // 	};
+// // }
 
-// const whiteBox = new Box("White Box", "White");
-// console.log(whiteBox);
+// // const whiteBox = new Box("White Box", "White");
+// // console.log(whiteBox);
 
-/** CALL | BIND | APPLY -> function methods */
+// /** CALL | BIND | APPLY -> function methods */
 
-/** CALL METHOD */
-// const person = {
-// 	name: "Kent",
-// 	age: 20,
-// 	salary: 2000,
-// 	run() {
-// 		console.log(`${this?.name} is running...`);
+// /** CALL METHOD */
+// // const person = {
+// // 	name: "Kent",
+// // 	age: 20,
+// // 	salary: 2000,
+// // 	run() {
+// // 		console.log(`${this?.name} is running...`);
 
-// 		function jump() {
-// 			console.log(`${this?.name} is jumping...`);
-// 		}
+// // 		function jump() {
+// // 			console.log(`${this?.name} is jumping...`);
+// // 		}
 
-// 		jump.call(this);
-// 	},
-// };
+// // 		jump.call(this);
+// // 	},
+// // };
 
-// const book = {
-// 	name: "Sherlock Holmes",
-// };
+// // const book = {
+// // 	name: "Sherlock Holmes",
+// // };
 
-// person.run();
+// // person.run();
 
-// HOF (Higher Order Function)
+// // HOF (Higher Order Function)
 
-// const items = [10, 15, 25].filter((num) => num % 2 === 1);
-// console.log(items);
+// // const items = [10, 15, 25].filter((num) => num % 2 === 1);
+// // console.log(items);
 
-// function createIncrement() {
-// 	let counter = 0;
-// 	return function () {
-// 		console.log("counter = ", ++counter);
-// 	};
-// }
+// // function createIncrement() {
+// // 	let counter = 0;
+// // 	return function () {
+// // 		console.log("counter = ", ++counter);
+// // 	};
+// // }
 
-// const increment = createIncrement();
-// increment();
-// increment();
-// increment();
-// increment();
-// increment();
+// // const increment = createIncrement();
+// // increment();
+// // increment();
+// // increment();
+// // increment();
+// // increment();
 
-/** BIND METHOD */
+// /** BIND METHOD */
 
-// const person = {
-// 	name: "Kent",
-// 	run() {
-// 		console.log(`${this?.name} is running...`);
-// 	},
-// };
+// // const person = {
+// // 	name: "Kent",
+// // 	run() {
+// // 		console.log(`${this?.name} is running...`);
+// // 	},
+// // };
 
-// const book = { name: "Sherlock Holmes" };
+// // const book = { name: "Sherlock Holmes" };
 
-/** Custom bind function */
-// function bind(fun, obj) {
-// 	return function () {
-// 		fun.call(obj);
-// 	};
-// }
+// /** Custom bind function */
+// // function bind(fun, obj) {
+// // 	return function () {
+// // 		fun.call(obj);
+// // 	};
+// // }
 
-// const fn = person.run.bind(book);
-// fn();
+// // const fn = person.run.bind(book);
+// // fn();
 
-// const car = {
-// 	name: "MBW",
-// 	run() {
-// 		console.log(`${this.name} is running...`);
-// 		this.jump.apply(car, ["CAR", "CAR-SUFFIX"]);
-// 		this.jump.call(car, "CAR", "CAR-SUFFIX");
-// 		this.jump();
-// 		//   2
-// 	},
-// };
+// // const car = {
+// // 	name: "MBW",
+// // 	run() {
+// // 		console.log(`${this.name} is running...`);
+// // 		this.jump.apply(car, ["CAR", "CAR-SUFFIX"]);
+// // 		this.jump.call(car, "CAR", "CAR-SUFFIX");
+// // 		this.jump();
+// // 		//   2
+// // 	},
+// // };
 
-// const fruit = {
-// 	name: "Banana",
-// 	jump(prefix = "FRUIT", suffix = "FRUIT") {
-// 		console.log(`${prefix} : ${this.name} is jumping... ${suffix}`);
-// 	},
-// };
+// // const fruit = {
+// // 	name: "Banana",
+// // 	jump(prefix = "FRUIT", suffix = "FRUIT") {
+// // 		console.log(`${prefix} : ${this.name} is jumping... ${suffix}`);
+// // 	},
+// // };
 
-// car.run.call(fruit);
+// // car.run.call(fruit);
 
-// Banana is running...
-// BMW is jumping...
-// Banana is jumping...
+// // Banana is running...
+// // BMW is jumping...
+// // Banana is jumping...
 
-// function createIncrement() {
-// 	let counter = 0;
-// 	return function () {
-// 		console.log("counter = ", ++counter);
-// 	};
-// }
+// // function createIncrement() {
+// // 	let counter = 0;
+// // 	return function () {
+// // 		console.log("counter = ", ++counter);
+// // 	};
+// // }
 
-// const increment = createIncrement();
-// increment();
-// increment();
-// increment();
-// increment();
-// increment();
+// // const increment = createIncrement();
+// // increment();
+// // increment();
+// // increment();
+// // increment();
+// // increment();
+
+// // function Watch() {
+// // 	let isStart = false;
+// // 	this.start = function () {
+// // 		if (isStart) {
+// // 			console.error("❌ watch already started");
+// // 		} else {
+// // 			isStart = true;
+// // 			console.log("✅ watch started");
+// // 		}
+// // 	};
+// // 	this.stop = function () {
+// // 		if (isStart) {
+// // 			isStart = false;
+// // 			console.log("✅ watch stopped");
+// // 		} else {
+// // 			console.error("❌ watch already stopped");
+// // 		}
+// // 	};
+// // }
+
+// // const watch = new Watch();
+// // watch.start(); // ✅ watch started
+// // watch.stop(); //  ✅ watch stopped
+// // watch.stop(); //  ❌ watch already stopped
+// // watch.stop(); //  ❌ watch already stopped
+// // watch.start(); // ✅ watch started
+// // watch.start(); // ❌ watch already started
+
+// /** Private Properties and Methods */
+
+// // function Person() {
+// // 	let firstName = "Kent";
+// // 	let lastName = "John";
+
+// // 	this.getFullName = function () {
+// // 		return firstName + " " + lastName;
+// // 	};
+
+// // 	this.setFullName = function (value) {
+// // 		const items = value.split(" ");
+// // 		firstName = items[0];
+// // 		lastName = items[1];
+// // 	};
+// // }
+
+// // const person = new Person();
+// // console.log(person.getFullName());
+// // person.setFullName("Mark Twin");
+// // console.log(person.getFullName());
+
+// // const person = {
+// // 	firstName: "Kent",
+// // 	lastName: "Mark",
+// // 	get fullName() {
+// // 		console.log("calling getter ");
+// // 		return this.firstName + " " + this.lastName;
+// // 	},
+// // 	set fullName(value) {
+// // 		console.log("calling setter ");
+// // 		const [firstName, lastName] = value.split(" ");
+// // 		this.firstName = firstName;
+// // 		this.lastName = lastName;
+// // 	},
+// // };
+
+// // function Person(firstName, lastName) {}
+// // // const person = new Person("Kent", "Mark");
+// // // console.log(person.fullName);
+// // // person.fullName = "Arslonbek Alimbaev";
+// // // console.log(person.fullName);
+
+// // let str = { key: "hellow" };
+// // const chars = [...str];
+// // console.log(chars);
 
 // function Watch() {
 // 	let isStart = false;
+// 	let intervalID = null;
+// 	this.duration = 0;
+
 // 	this.start = function () {
 // 		if (isStart) {
 // 			console.error("❌ watch already started");
 // 		} else {
 // 			isStart = true;
+// 			intervalID = setInterval(() => {
+// 				this.duration++;
+// 			}, 1000);
+
 // 			console.log("✅ watch started");
 // 		}
 // 	};
+
 // 	this.stop = function () {
 // 		if (isStart) {
 // 			isStart = false;
+
+// 			clearInterval(intervalID);
+
 // 			console.log("✅ watch stopped");
+// 			console.log(`Duration: ${this.duration}`);
+
+// 			this.duration = 0;
 // 		} else {
 // 			console.error("❌ watch already stopped");
 // 		}
@@ -252,56 +341,43 @@
 // }
 
 // const watch = new Watch();
-// watch.start(); // ✅ watch started
-// watch.stop(); //  ✅ watch stopped
-// watch.stop(); //  ❌ watch already stopped
-// watch.stop(); //  ❌ watch already stopped
-// watch.start(); // ✅ watch started
-// watch.start(); // ❌ watch already started
 
-/** Private Properties and Methods */
+/* Getters and Setters */
 
-// function Person() {
-// 	let firstName = "Kent";
-// 	let lastName = "John";
+// const person = {
+// 	birthYear: 2000,
+// 	get age() {
+// 		const age = new Date().getUTCFullYear() - this.birthYear;
+// 		return age;
+// 	},
+// 	set age(value) {
+// 		this.birthYear = new Date().getUTCFullYear() - value;
+// 	},
+// };
 
-// 	this.getFullName = function () {
-// 		return firstName + " " + lastName;
-// 	};
+// person.myAge = 50;
+// console.log(person.age);
+// console.log(person);
 
-// 	this.setFullName = function (value) {
-// 		const items = value.split(" ");
-// 		firstName = items[0];
-// 		lastName = items[1];
-// 	};
-// }
+/* Coding challenge (update password) */
 
-// const person = new Person();
-// console.log(person.getFullName());
-// person.setFullName("Mark Twin");
-// console.log(person.getFullName());
-
-const person = {
-	firstName: "Kent",
-	lastName: "Mark",
-	get fullName() {
-		console.log("calling getter ");
-		return this.firstName + " " + this.lastName;
-	},
-	set fullName(value) {
-		console.log("calling setter ");
-		const [firstName, lastName] = value.split(" ");
-		this.firstName = firstName;
-		this.lastName = lastName;
+const user = {
+	email: "ars@domain.com",
+	password: "xyz123123",
+	editPassword(newPassword, confirmPassword, oldPassword) {
+		if (newPassword !== confirmPassword) throw new Error("❌ Invalid confirm password");
+		if (newPassword === oldPassword) throw new Error("❌ Enter new password");
+		if (this.password !== oldPassword) throw new Error("❌ Old password incorrect");
+		this.password = newPassword;
+		return "🎉😀😃  Successfully updated your password";
 	},
 };
 
-function Person(firstName, lastName) {}
-// const person = new Person("Kent", "Mark");
-// console.log(person.fullName);
-// person.fullName = "Arslonbek Alimbaev";
-// console.log(person.fullName);
-
-let str = { key: "hellow" };
-const chars = [...str];
-console.log(chars);
+try {
+	console.log(user.password);
+	const response = user.editPassword("xyz0000", "xyz0000", "xyz12323");
+	console.log(response);
+	console.log(user.password);
+} catch (err) {
+	console.error(err.message);
+}
