@@ -36,11 +36,8 @@
            🍩 Object.values 👍🏻
            🍩 Object.entries 👍🏻
     ✅ Coding Challenge 👍🏻
-    ✅ Prototype
-    ✅ Prototype Chaining && __proto__
-    ✅ Class
-    ✅ Constructor
-    ✅ Inheritance
+    ✅ Prototype 👍🏻
+    ✅ Prototype Chaining && __proto__ 👍🏻
     ✅ Class
     ✅ Constructor
     ✅ Inheritance
