@@ -1,4 +1,4 @@
-# ---------- 18.04.23 ----------(87)
+# ---------- 20.04.23 ----------(88)
 
 # JS Advanced
 
@@ -25,16 +25,22 @@
     ✅ new keyword 👍🏻
     ✅ Abstraction 👍🏻
     ✅ Private Properties and Methods 👍🏻
-    ✅ Getters and Setters
+    ✅ Getters and Setters 👍🏻
+    ✅ Arrow Function vs Function Declaration 👍🏻
     ✅ Object Static Methods
-           🍩 Object.defineProperty
-           🍩 Object.defineProperties
-           🍩 Object.freeze
-           🍩 Object.hasOwnProperty 🗑️
-           🍩 Object.keys
-           🍩 Object.values
-           🍩 Object.entries
-    ✅ Coding Challenge
+           🍩 Object.defineProperty 👍🏻
+           🍩 Object.defineProperties 👍🏻
+           🍩 Object.freeze 👍🏻
+           🍩 Object.hasOwnProperty 🗑️ 👍🏻
+           🍩 Object.keys 👍🏻
+           🍩 Object.values 👍🏻
+           🍩 Object.entries 👍🏻
+    ✅ Coding Challenge 👍🏻
+    ✅ Prototype
+    ✅ Prototype Chaining && __proto__
+    ✅ Class
+    ✅ Constructor
+    ✅ Inheritance
     ✅ Class
     ✅ Constructor
     ✅ Inheritance
