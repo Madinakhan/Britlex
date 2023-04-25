@@ -4,12 +4,12 @@
 
     ✅ Expression vs Statement 👍🏻
     ✅ OOP && Object.create && Object.assign
-    ✅ Prototype && Prototype Chain
+    ✅ Prototype && Prototype Chain 👍🏻
     ✅ Functional Programming && Closure
     ✅ JS Execution && Event Loop
     ✅ JS Modules
     ✅ Collections && Generators **
-    ✅ Getters && Setters
+    ✅ Getters && Setters 👍🏻
     ✅ Promises && Async/Await
     ✅ NPM Package
     ✅ Backend && AJAX && Fetch
