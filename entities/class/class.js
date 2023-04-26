@@ -21,7 +21,7 @@ class Car {
 		this.price = price;
 	}
 
-	run() {
+	run() { 
 		console.log(`${this.name} is running... 🚙`);
 	}
 }
