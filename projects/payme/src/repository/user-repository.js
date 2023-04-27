@@ -23,6 +23,15 @@ var UserRepository = /** @class */ (function () {
     UserRepository.prototype.getList = function () {
         return this.list;
     };
+    UserRepository.prototype.getByPhoneNumber = function (phoneNumber) {
+        for (var _i = 0, _a = this.list; _i < _a.length; _i++) {
+            var user = _a[_i];
+            if (user.phoneNumber === phoneNumber) {
+                return user;
+            }
+        }
+        throw new Error("user(".concat(phoneNumber, ") not found"));
+    };
     UserRepository.prototype.isExist = function (phoneNumber) {
         for (var _i = 0, _a = this.list; _i < _a.length; _i++) {
             var user = _a[_i];

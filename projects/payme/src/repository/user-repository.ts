@@ -19,6 +19,16 @@ export class UserRepository {
 		return this.list;
 	}
 
+	getByPhoneNumber(phoneNumber: string): User {
+		for (let user of this.list) {
+			if (user.phoneNumber === phoneNumber) {
+				return user;
+			}
+		}
+
+		throw new Error(`user(${phoneNumber}) not found`);
+	}
+
 	isExist(phoneNumber: string): boolean {
 		for (let user of this.list) {
 			if (user.phoneNumber === phoneNumber) return true;
