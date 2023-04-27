@@ -1,8 +1,13 @@
-let counter = 0;
 export class User {
-	id: number;
+	private id: number;
 
-	constructor(public firstName: string, public lastName: string, public phoneNumber: string, public password: string) {
-		this.id = ++counter;
+	constructor(public firstName: string, public lastName: string, public phoneNumber: string, public password: string, public isBlocked: boolean) {}
+
+	setId(id: number) {
+		this.id = id;
+	}
+
+	getId() {
+		return this.id;
 	}
 }
