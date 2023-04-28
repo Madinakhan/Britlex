@@ -1,21 +1,50 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var card_1 = require("./entities/card");
-var user_1 = require("./entities/user");
-var main_service_1 = require("./services/main-service");
-function init() {
-    try {
-        var mainService = new main_service_1.MainService();
-        var user1 = new user_1.User("Kent", "Mark", "+998 99 896 13 48", "root123", false);
-        var user2 = new user_1.User("Boburbek", "Maripov", "+998 99 896 13 47", "xyz123", false);
-        mainService.register(user1, user2);
-        var card1 = new card_1.Card("8600 0000 0001 0002", "05/25", "UZCARD", 100000, user1.getId(), "TBC BANK");
-        var card2 = new card_1.Card("8600 0000 0001 0003", "06/26", "HUMO", 150000, user2.getId(), "NRG BANK");
-        var card3 = new card_1.Card("8600 0000 0001 0004", "04/24", "HUMO", 200000, user1.getId(), "KAPITAL BANK");
-        mainService.registerCard(card1, card2, card3);
+// import { Card } from "./entities/card";
+// import { User } from "./entities/user";
+// import { UserService } from "./services/user-service";
+var __assign = (this && this.__assign) || function () {
+    __assign = Object.assign || function(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+            s = arguments[i];
+            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
+                t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+// function init() {
+// 	try {
+// 		const userService = new UserService();
+// 		const user1 = new User("Kent", "Mark", "+998998961348", "root123", false);
+// 		userService.create(user1);
+// 		const user = userService.login(user1.phoneNumber, user1.password);
+// 		console.log(user === user1);
+// 		// const currentUser = mainService.login("+998998961348", "root123");
+// 		// console.log("USER: ", currentUser);
+// 		// user1.lastName = "Sharipov";
+// 		// console.log("USER: ", currentUser);
+// 	} catch (err: any) {
+// 		console.error(`\n ❌: ${err.message}`);
+// 	}
+// }
+// init();
+var User = /** @class */ (function () {
+    function User(fullName) {
+        this.fullName = fullName;
     }
-    catch (err) {
-        console.error("\n \u274C: ".concat(err.message));
-    }
+    User.prototype.run = function () {
+        console.log("".concat(this.fullName, " is running..."));
+    };
+    return User;
+}());
+function createUser(fullName) {
+    return {
+        fullName: fullName,
+        run: function () {
+            console.log("".concat(this.fullName, " is running..."));
+        },
+    };
 }
-init();
+var user = createUser("Arslonbek Alimbaev");
+user = __assign({}, user);
+user.run();

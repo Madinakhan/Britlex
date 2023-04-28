@@ -1,26 +1,43 @@
-import { Card } from "./entities/card";
-import { User } from "./entities/user";
-import { CardRepository } from "./repository/card-repository";
-import { UserRepository } from "./repository/user-repository";
-import { MainService } from "./services/main-service";
+// import { Card } from "./entities/card";
+// import { User } from "./entities/user";
+// import { UserService } from "./services/user-service";
 
-function init() {
-	try {
-		const mainService = new MainService();
+// function init() {
+// 	try {
+// 		const userService = new UserService();
+// 		const user1 = new User("Kent", "Mark", "+998998961348", "root123", false);
+// 		userService.create(user1);
 
-		const user1 = new User("Kent", "Mark", "+998 99 896 13 48", "root123", false);
-		const user2 = new User("Boburbek", "Maripov", "+998 99 896 13 47", "xyz123", false);
+// 		const user = userService.login(user1.phoneNumber, user1.password);
+// 		console.log(user === user1);
 
-		mainService.register(user1, user2);
+// 		// const currentUser = mainService.login("+998998961348", "root123");
+// 		// console.log("USER: ", currentUser);
+// 		// user1.lastName = "Sharipov";
+// 		// console.log("USER: ", currentUser);
+// 	} catch (err: any) {
+// 		console.error(`\n ❌: ${err.message}`);
+// 	}
+// }
 
-		const card1 = new Card("8600 0000 0001 0002", "05/25", "UZCARD", 100000, user1.getId(), "TBC BANK");
-		const card2 = new Card("8600 0000 0001 0003", "06/26", "HUMO", 150000, user2.getId(), "NRG BANK");
-		const card3 = new Card("8600 0000 0001 0004", "04/24", "HUMO", 200000, user1.getId(), "KAPITAL BANK");
+// init();
 
-		mainService.registerCard(card1, card2, card3);
-	} catch (err: any) {
-		console.error(`\n ❌: ${err.message}`);
+class User {
+	constructor(public fullName: string) {}
+	run() {
+		console.log(`${this.fullName} is running...`);
 	}
 }
 
-init();
+function createUser(fullName: string) {
+	return {
+		fullName,
+		run() {
+			console.log(`${this.fullName} is running...`);
+		},
+	};
+}
+
+let user = createUser("Arslonbek Alimbaev");
+user = { ...user };
+user.run();

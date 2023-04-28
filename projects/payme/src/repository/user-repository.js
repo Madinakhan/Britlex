@@ -20,10 +20,37 @@ var UserRepository = /** @class */ (function () {
             this.list.push(user);
         }
     };
+    UserRepository.prototype.getById = function (userID) {
+        for (var _i = 0, _a = this.list; _i < _a.length; _i++) {
+            var user = _a[_i];
+            if (user.getId() === userID)
+                return user;
+        }
+        throw new Error("User(".concat(userID, ") not found"));
+    };
     UserRepository.prototype.getList = function () {
         return this.list;
     };
-    UserRepository.prototype.getByPhoneNumber = function (phoneNumber) {
+    UserRepository.prototype.update = function (update) {
+        var idx = this.findIndex(function (user) { return user.getId() === update.getId(); });
+        if (idx === undefined)
+            throw new Error("User not found");
+        this.list[idx] = update;
+    };
+    UserRepository.prototype.findIndex = function (fun) {
+        for (var idx = 0; idx < this.list.length; idx++) {
+            if (fun(this.list[idx], idx)) {
+                return idx;
+            }
+        }
+    };
+    UserRepository.prototype.delete = function (id) {
+        var idx = this.findIndex(function (user, idx) { return user.getId() === id; });
+        if (idx === undefined)
+            throw new Error("User not found");
+        this.list.splice(idx, 1);
+    };
+    UserRepository.prototype.getUserByPhoneNumber = function (phoneNumber) {
         for (var _i = 0, _a = this.list; _i < _a.length; _i++) {
             var user = _a[_i];
             if (user.phoneNumber === phoneNumber) {
