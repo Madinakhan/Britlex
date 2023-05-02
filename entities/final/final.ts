@@ -34,18 +34,33 @@
 
 // __proto__
 
-const num = 20; // new Number(20).valueOf();
+// const num = 20; // new Number(20).valueOf();
 
-// @ts-ignore
-console.log(num.__proto__ === Number.prototype);
+// // @ts-ignore
+// console.log(num.__proto__ === Number.prototype);
 
-// @ts-ignore
-console.log("hello world".__proto__ === String.prototype);
+// // @ts-ignore
+// console.log("hello world".__proto__ === String.prototype);
 
-class Box {}
+// class Box {}
 
-const box = new Box();
-// @ts-ignore
-console.log(box.__proto__ === Box.prototype);
-// @ts-ignore
-console.log(box.__proto__.__proto__ === Object.prototype);
+// const box = new Box();
+// // @ts-ignore
+// console.log(box.__proto__ === Box.prototype);
+// // @ts-ignore
+// console.log(box.__proto__.__proto__ === Object.prototype);
+
+const person = {
+	name: "Arslonbek",
+	age: 20,
+	address: {
+		city: "Tashkent city",
+		state: "UZ",
+	},
+};
+const person1 = Object.assign({}, person);
+person1.age = 30;
+person1.address = { ...person.address };
+person1.address.city = "Turtkul city";
+console.log(person);
+console.log(person1);

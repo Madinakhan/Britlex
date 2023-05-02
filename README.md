@@ -5,7 +5,7 @@
     ✅ Expression vs Statement 👍🏻
     ✅ Getters && Setters 👍🏻
     ✅ Prototype && Prototype Chain 👍🏻
-    ✅ OOP && Object.create && Object.assign
+    ✅ OOP && Object.create && Object.assign 👍🏻
     ✅ Promises && Async/Await && Callback function
     ✅ Functional Programming && Closure
     ✅ JS Execution && Event Loop
@@ -47,6 +47,8 @@
            🎁 similar properties 👍🏻
            🎁 Multiple inheritance 👍🏻
     ✅ Arrow function method 👍🏻
-    ✅ Prototype vs __Proto__
+    ✅ Prototype vs __Proto__ 👍🏻
+
+# Deep clone
 
 # [JS Interview questions (500)](https://github.com/sudheerj/javascript-interview-questions)
