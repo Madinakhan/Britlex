@@ -242,10 +242,7 @@ public class Main {
         return new TV(name, price, manufacturer, displaySize, isSmart, displayType);
     }
 
-    public static void userMenu() {
-
-    }
-
+    public static void userMenu() {}
 
     public static boolean checkAdmin(User user) {
         return user.getUsername().equals("admin");
@@ -293,6 +290,5 @@ public class Main {
         productService.add(new Laptop("MSI GF66", 1000D, "MSI", 12, "Core i7 11 Gen", "RTX4090", 256));
         productService.add(new Laptop("Dell AB4", 500D, "Dell", 16, "Core i3 8Gen", "S90", 128));
         productService.add(new Laptop("Lenovo", 650D, "Lenovo", 24, "Core i7 8 Gen", "RTX4090", 512));
-
     }
 }
