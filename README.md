@@ -30,18 +30,22 @@
     ✅ Getters and Setters 👍🏻
     ✅ Arrow Function vs Function Declaration 👍🏻
     ✅ Object Static Methods
-           🍩 Object.defineProperty 👍🏻
-           🍩 Object.defineProperties 👍🏻
-           🍩 Object.freeze 👍🏻
-           🍩 Object.hasOwnProperty 🗑️ 👍🏻
-           🍩 Object.keys 👍🏻
-           🍩 Object.values 👍🏻
-           🍩 Object.entries 👍🏻
+           🎁 Object.defineProperty 👍🏻
+           🎁 Object.defineProperties 👍🏻
+           🎁 Object.freeze 👍🏻
+           🎁 Object.hasOwnProperty 🗑️ 👍🏻
+           🎁 Object.keys 👍🏻
+           🎁 Object.values 👍🏻
+           🎁 Object.entries 👍🏻
     ✅ Coding Challenge 👍🏻
     ✅ Prototype 👍🏻
     ✅ Prototype Chaining && __proto__ 👍🏻
-    ✅ Class
-    ✅ Constructor
+    ✅ Class 👍🏻
+    ✅ Constructor 👍🏻
     ✅ Inheritance
+           🎁 similar methods
+           🎁 similar properties
+           🎁 Multiple inheritance
+    ✅ Arrow function method
 
 # [JS Interview questions (500)](https://github.com/sudheerj/javascript-interview-questions)

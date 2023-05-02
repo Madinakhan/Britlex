@@ -247,6 +247,7 @@ public class Main {
     public static boolean checkAdmin(User user) {
         return user.getUsername().equals("admin");
     }
+    
     public static void signUp() {
         System.out.print("Enter name");
         String name = scanStr.nextLine();
