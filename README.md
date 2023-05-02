@@ -3,14 +3,14 @@
 # JS Advanced
 
     ✅ Expression vs Statement 👍🏻
-    ✅ OOP && Object.create && Object.assign
+    ✅ Getters && Setters 👍🏻
     ✅ Prototype && Prototype Chain 👍🏻
+    ✅ OOP && Object.create && Object.assign
+    ✅ Promises && Async/Await && Callback function
     ✅ Functional Programming && Closure
     ✅ JS Execution && Event Loop
     ✅ JS Modules
     ✅ Collections && Generators **
-    ✅ Getters && Setters 👍🏻
-    ✅ Promises && Async/Await
     ✅ NPM Package
     ✅ Backend && AJAX && Fetch
     ✅ Clean Code
@@ -42,10 +42,11 @@
     ✅ Prototype Chaining && __proto__ 👍🏻
     ✅ Class 👍🏻
     ✅ Constructor 👍🏻
-    ✅ Inheritance
-           🎁 similar methods
-           🎁 similar properties
-           🎁 Multiple inheritance
-    ✅ Arrow function method
+    ✅ Inheritance 👍🏻
+           🎁 similar methods 👍🏻
+           🎁 similar properties 👍🏻
+           🎁 Multiple inheritance 👍🏻
+    ✅ Arrow function method 👍🏻
+    ✅ Prototype vs __Proto__
 
 # [JS Interview questions (500)](https://github.com/sudheerj/javascript-interview-questions)
