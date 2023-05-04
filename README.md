@@ -1,4 +1,4 @@
-# ---------- 02.05.23 ----------(92)
+# ---------- 04.05.23 ----------(93)
 
 # JS Advanced
 
@@ -6,49 +6,45 @@
     ✅ Getters && Setters 👍🏻
     ✅ Prototype && Prototype Chain 👍🏻
     ✅ OOP && Object.create && Object.assign 👍🏻
-    ✅ Promises && Async/Await && Callback function
     ✅ Functional Programming && Closure
+    ✅ Promises && Async/Await && Callback function
+    ✅ Backend && AJAX && Fetch
     ✅ JS Execution && Event Loop
     ✅ JS Modules
     ✅ Collections && Generators **
     ✅ NPM Package
-    ✅ Backend && AJAX && Fetch
     ✅ Clean Code
-
-# Typescript
-
-# JS OOP
-
-    ✅ Object 👍🏻
-    ✅ this keyword 👍🏻
-    ✅ call && bind && apply function methods 👍🏻
-    ✅ Factory function 👍🏻
-    ✅ Constructor function 👍🏻
-    ✅ new keyword 👍🏻
-    ✅ Abstraction 👍🏻
-    ✅ Private Properties and Methods 👍🏻
-    ✅ Getters and Setters 👍🏻
-    ✅ Arrow Function vs Function Declaration 👍🏻
-    ✅ Object Static Methods
-           🎁 Object.defineProperty 👍🏻
-           🎁 Object.defineProperties 👍🏻
-           🎁 Object.freeze 👍🏻
-           🎁 Object.hasOwnProperty 🗑️ 👍🏻
-           🎁 Object.keys 👍🏻
-           🎁 Object.values 👍🏻
-           🎁 Object.entries 👍🏻
-    ✅ Coding Challenge 👍🏻
-    ✅ Prototype 👍🏻
-    ✅ Prototype Chaining && __proto__ 👍🏻
-    ✅ Class 👍🏻
-    ✅ Constructor 👍🏻
-    ✅ Inheritance 👍🏻
-           🎁 similar methods 👍🏻
-           🎁 similar properties 👍🏻
-           🎁 Multiple inheritance 👍🏻
-    ✅ Arrow function method 👍🏻
-    ✅ Prototype vs __Proto__ 👍🏻
 
 # Deep clone
 
+## Async JS
+
+        Asynchronous(non-blocking) vs Synchronous(blocking)
+        setTimeout
+        Patterns
+                ✅ Callbacks
+                ✅ Promises
+                ✅ Async / await
+        Callbacks
+        Callback Hell
+        Promises
+                ✅ Pending
+                ✅ Resolve
+                ✅ Rejected
+                ✅ than
+                ✅ catch
+                ✅ finally
+        Replacing Callbacks with Promises
+        Parallel Promises
+        Simple example with DOM
+
+# AJAX - Asynchronous JavaScript And XML
+
+        ✅ Simple example AJAX Request
+        ✅ JSON - JavaScript object notation
+        ✅ explain fetch
+        ✅ Simple example with fetch
+
 # [JS Interview questions (500)](https://github.com/sudheerj/javascript-interview-questions)
+
+# https://github.com/tarkant/webpack-typescript-sass-boilerplate

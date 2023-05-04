@@ -81,7 +81,7 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public ArrayList<User> searchByName(String partOfName  ) {
+    public ArrayList<User> searchByName(String partOfName ) {
         ArrayList<User> foundUsers = new ArrayList<>();
         for(User user:users){
             if (user.getFullName().toLowerCase().contains(partOfName.toLowerCase())) {
