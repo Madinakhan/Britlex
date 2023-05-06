@@ -1,4 +1,4 @@
-# ---------- 04.05.23 ----------(93)
+# ---------- 06.05.23 ----------(93)
 
 # JS Advanced
 
@@ -6,16 +6,14 @@
     ✅ Getters && Setters 👍🏻
     ✅ Prototype && Prototype Chain 👍🏻
     ✅ OOP && Object.create && Object.assign 👍🏻
-    ✅ Functional Programming && Closure
     ✅ Promises && Async/Await && Callback function
-    ✅ Backend && AJAX && Fetch
     ✅ JS Execution && Event Loop
+    ✅ Functional Programming && Closure
+    ✅ Backend && AJAX && Fetch
     ✅ JS Modules
     ✅ Collections && Generators **
     ✅ NPM Package
     ✅ Clean Code
-
-# Deep clone
 
 ## Async JS
 
