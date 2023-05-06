@@ -7,8 +7,8 @@
     ✅ Prototype && Prototype Chain 👍🏻
     ✅ OOP && Object.create && Object.assign 👍🏻
     ✅ Promises && Async/Await && Callback function
-    ✅ JS Execution && Event Loop
     ✅ Functional Programming && Closure
+    ✅ JS Execution && Event Loop
     ✅ Backend && AJAX && Fetch
     ✅ JS Modules
     ✅ Collections && Generators **
