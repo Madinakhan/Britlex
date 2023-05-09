@@ -1,48 +1,49 @@
-# ---------- 06.05.23 ----------(93)
+# ---------- 09.05.23 ----------(95)(Examine-6)
 
-# JS Advanced
+# Questions
 
-    ✅ Expression vs Statement 👍🏻
-    ✅ Getters && Setters 👍🏻
-    ✅ Prototype && Prototype Chain 👍🏻
-    ✅ OOP && Object.create && Object.assign 👍🏻
-    ✅ Promises && Async/Await && Callback function
-    ✅ Functional Programming && Closure
-    ✅ JS Execution && Event Loop
-    ✅ Backend && AJAX && Fetch
-    ✅ JS Modules
-    ✅ Collections && Generators **
-    ✅ NPM Package
-    ✅ Clean Code
+# (1)(✅) e.preventDefault() va e.stopPropogation() larning bir-biridan qanday farqi bor?
 
-## Async JS
+# (2)(🎁) JavaScript qanday ma’lumot turlari (data type) mavjud?
 
-        Asynchronous(non-blocking) vs Synchronous(blocking)
-        setTimeout
-        Patterns
-                ✅ Callbacks
-                ✅ Promises
-                ✅ Async / await
-        Callbacks
-        Callback Hell
-        Promises
-                ✅ Pending
-                ✅ Resolve
-                ✅ Rejected
-                ✅ than
-                ✅ catch
-                ✅ finally
-        Replacing Callbacks with Promises
-        Parallel Promises
-        Simple example with DOM
+# (3)(🎁) null va undefined ham ma'lumot turlariga kiradimi?
 
-# AJAX - Asynchronous JavaScript And XML
+# (4)(🎁) var, let va const orqali o'zgaruvchi e'lon qilishni farqi nimada?
 
-        ✅ Simple example AJAX Request
-        ✅ JSON - JavaScript object notation
-        ✅ explain fetch
-        ✅ Simple example with fetch
+# (5)(🎁) hoisting haqida ma'lumot bering
 
-# [JS Interview questions (500)](https://github.com/sudheerj/javascript-interview-questions)
+# (6)(🎁) hoistingda temporary dead zone tushunchasi nima?
 
-# https://github.com/tarkant/webpack-typescript-sass-boilerplate
+# (7)(🎁) o'qli funksiya (arrow function) va oddiy functionni farqi nimada?
+
+# (8)(🎁) this kalit so'zi va uni ishlatilishi haqida ma’lumot bering
+
+# (9)(🎁) proto va prototype haqida ma'lumot bering va farqini ayting
+
+# (10)(🎁) call, bind, apply methodlarini farqi nimada?
+
+# (11)(🎁) JavaScriptda DOM dagi elementlarni olish uchun qanday metodlar mavjud?
+
+# (12)(🎁) getElementById va getElementsByClassName ni farqi nimada?
+
+# (13)(✅) JavaScriptda inheritance qanday ishlaydi?
+
+# (14)(✅) Objectning "prototype" ni qanday aniqlash mumkun?
+
+# (15)(✅) JavaScriptda hodisalar qanday ishlaydi (event propogationga urg'u berilgan)
+
+# (18)(✅) Qanday qilib hodisalarning standart holatini, bubblingdan capturingga o'tkazib qo'yish mumkun? (Event phase)
+
+# (19)(✅) e.preventDefault() va e.stopPropogation() larning bir-biridan qanday farqi bor?
+
+# (20)(✅) simple clone va deep clone larning qanday farqi bor?
+
+# (21)(✅) Object.create va Object.assign methodlaring maqsadi
+
+# (22)(✅) Getters va Setters nima uchun kerak
+
+# (23)(🎁) break va continue nima uchun kerak (loop larga urg'u berilgan)
+
+# (24)(✅) Typescript dagi interface nima uchun kerak
+
+# (25)(✅) Class boshqa class dan extends olsa nima boladi
