@@ -78,43 +78,101 @@ const commits: Commit[] = [
 const time = 2000;
 
 /** Backend Functions */
-function getUsers(cb: CB<User[]>) {
-	console.log("[USERS] Waiting...");
-	setTimeout(() => cb(users), time);
-}
+function getUsers(): Promise<User[]> {
+	let isSuccess = true;
+	return new Promise((resolve, reject) => {
+		console.log("[USERS] Waiting...");
 
-function getRepositories(username: string, cb: CB<Repository[]>) {
-	console.log("[REPOSITORIES] Waiting...");
-	setTimeout(() => cb(repositories.filter((r) => r.ownerUsername === username)), time);
-}
-
-function getBranches(repoID: string, cb: CB<Branch[]>) {
-	console.log("[BRANCHES] Waiting...");
-	setTimeout(() => cb(branches.filter((b) => b.repoId === repoID)), time);
-}
-function getCommits(branchID: string, cb: CB<Commit[]>) {
-	console.log("[COMMITS] Waiting...");
-	setTimeout(() => cb(commits.filter((c) => c.branchId === branchID)), time);
-}
-
-/** Start Function */
-function main() {
-	getUsers((users) => {
-		console.log("users = ", users);
-
-		getRepositories(users[0].username, (repositories) => {
-			console.log("repositories = ", repositories);
-
-			getBranches(repositories[0].id, (branches) => {
-				console.log("branches = ", branches);
-
-				getCommits(branches[0].id, (commits) => {
-					console.log("commits = ", commits);
-				});
-			});
-		});
+		setTimeout(() => {
+			if (isSuccess) {
+				resolve(users);
+			} else reject(new Error("Users not found"));
+		}, time);
 	});
 }
+
+function getRepositories(username: string): Promise<Repository[]> {
+	let isSuccess = true;
+	return new Promise((resolve, reject) => {
+		console.log("[REPOSITORIES] Waiting...");
+
+		setTimeout(() => {
+			if (isSuccess) {
+				resolve(repositories.filter((r) => r.ownerUsername === username));
+			} else reject(new Error("Repositories not found"));
+		}, time);
+	});
+}
+
+function getBranches(repoID: string): Promise<Branch[]> {
+	let isSuccess = true;
+	return new Promise((resolve, reject) => {
+		console.log("[BRANCHES] Waiting...");
+
+		setTimeout(() => {
+			if (isSuccess) {
+				resolve(branches.filter((b) => b.repoId === repoID));
+			} else reject(new Error("Branches not found"));
+		}, time);
+	});
+}
+
+function getCommits(branchID: string): Promise<Commit[]> {
+	let isSuccess = true;
+	return new Promise((resolve, reject) => {
+		console.log("[COMMITS] Waiting...");
+
+		setTimeout(() => {
+			if (isSuccess) {
+				resolve(commits.filter((c) => c.branchId === branchID));
+			} else reject(new Error("Commits not found"));
+		}, time);
+	});
+}
+
+const onError = (err: Error) => {
+	console.error(err.message);
+};
+
+const onSuccessRepos = (repos: Repository[]) => {
+	console.log("repos = ", repos);
+	getBranches(repositories[0].id).then((branches) => {
+		console.log("branches = ", branches);
+
+		getCommits(branches[0].id).then((commits) => {
+			console.log("commits = ", commits);
+		});
+	});
+};
+
+const onSuccesUsers = (users: User[]) => {
+	console.log("users = ", users);
+	getRepositories(users[0].username).then(onSuccessRepos, onError);
+};
+
+/** Promise */
+function main() {
+	getUsers().then(onSuccesUsers, onError).then().then()
+}
+// /** Callback */
+// function main() {
+// 	getUsers((users) => {
+// 		console.log("users = ", users);
+
+// 		getRepositories(users[0].username, (repositories) => {
+// 			console.log("repositories = ", repositories);
+
+// 			getBranches(repositories[0].id, (branches) => {
+// 				console.log("branches = ", branches);
+
+// 				getCommits(branches[0].id, (commits) => {
+// 					console.log("commits = ", commits);
+// 				});
+// 			});
+
+// 		});
+// 	});
+// }
 
 main();
 
@@ -126,5 +184,3 @@ main();
  *
  *
  */
-
-async function app() {}

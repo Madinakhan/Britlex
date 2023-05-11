@@ -1,6 +1,6 @@
 {
 	"compilerOptions": {
-		"target": "ESNext",
+		"target": "ES5",
 		"lib": ["ESNext", "ESNext.Array", "DOM"] /* Specify a set of bundled library declaration files that describe the target runtime environment. */,
 		"module": "ES6" /* Specify what module code is generated. */,
 		"outDir": "./dist" /* Specify an output folder for all emitted files. */,

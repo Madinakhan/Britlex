@@ -5,11 +5,11 @@
         Asynchronous(non-blocking) vs Synchronous(blocking)
         setTimeout
         Patterns
-                ✅ Callbacks
+                ✅ Callbacks 👍🏻
                 ✅ Promises
                 ✅ Async / await
-        Callbacks
-        Callback Hell
+        Callbacks 👍🏻
+        Callback Hell 👍🏻
         Promises
                 ✅ Pending
                 ✅ Resolve
@@ -17,7 +17,9 @@
                 ✅ than
                 ✅ catch
                 ✅ finally
-        Replacing Callbacks with Promises
+                ✅ Promise.all
+                ✅ Promise.rice
+        Replacing Callbacks with Promises 👍🏻
         Parallel Promises
         Simple example with DOM
 
