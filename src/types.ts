@@ -1,22 +1,28 @@
-export type User = { id: number; username: string };
+export namespace IEntity {
+	export interface User {
+		id: number;
+		username: string;
+	}
 
-export type CB<T> = (data: T) => void;
+	export interface Repo {
+		id: number;
+		ownerUsername: string;
+		name: string;
+	}
 
-export type Repository = {
-	id: string;
-	ownerUsername: string;
-	name: string;
-};
+	export interface Branch {
+		id: number;
+		repoID: number;
+		name: string;
+	}
 
-export type Branch = {
-	id: string;
-	name: string;
-	repoId: string;
-};
+	export interface Commit {
+		id: number;
+		branchID: number;
+		message: string;
+	}
+}
 
-export type Commit = {
-	id: string;
-	message: string;
-	branchId: string;
-	createdAt: string;
-};
+export namespace IFunction {
+	export type CB<T> = (data: T) => void;
+}

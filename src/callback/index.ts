@@ -1,5 +1,5 @@
 import { getBranches, getCommits, getRepositories, getUser } from "./backend";
-import { IEntity } from "./types";
+import { IEntity } from "../types";
 
 // Display functions
 const displayCommits = (commits: IEntity.Commit[]) => {
@@ -8,27 +8,17 @@ const displayCommits = (commits: IEntity.Commit[]) => {
 
 const displayBranches = (branches: IEntity.Branch[]) => {
 	console.log("branches = ", branches);
-	return getCommits(branches[0].id);
+	getCommits(displayCommits, branches[0].id);
 };
 
 const displayRepositories = (repos: IEntity.Repo[]) => {
 	console.log("repos = ", repos);
-	return getBranches(repos[0].id);
+	getBranches(displayBranches, repos[0].id);
 };
 
 const displayUser = (user: IEntity.User) => {
 	console.log("user = ", user);
-	return getRepositories(user.username);
+	getRepositories(displayRepositories, user.username);
 };
 
-getUser(122223)
-	.then(displayUser, (err: Error) => {
-		console.error("[GET-USER][❌]: ", err.message);
-	})
-	// @ts-ignore
-	.then(displayRepositories)
-	.then(displayBranches)
-	.then(displayCommits)
-	.catch((err: Error) => {
-		console.error("[UNIVERSAL][❌] : ", err.message);
-	});
+getUser(displayUser, 123);
