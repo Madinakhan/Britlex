@@ -1,6 +1,6 @@
 {
 	"compilerOptions": {
-		"target": "ES5",
+		"target": "ES6",
 		"lib": ["ESNext", "ESNext.Array", "DOM"] /* Specify a set of bundled library declaration files that describe the target runtime environment. */,
 		"module": "ES6" /* Specify what module code is generated. */,
 		"outDir": "./dist" /* Specify an output folder for all emitted files. */,
@@ -12,6 +12,7 @@
 		"watch": true,
 		"noImplicitThis": false /* Enable error reporting when 'this' is given the type 'any'. */,
 		"alwaysStrict": true /* Ensure 'use strict' is always emitted. */,
-		"skipLibCheck": true /* Skip type checking all .d.ts files. */
+		"skipLibCheck": true /* Skip type checking all .d.ts files. */,
+		"emitDecoratorMetadata": false
 	}
 }
