@@ -21,4 +21,20 @@ const displayUser = (user: IEntity.User) => {
 	getRepositories(displayRepositories, user.username);
 };
 
-getUser(displayUser, 123);
+/* CALLBACK */
+getUser((user: IEntity.User) => {
+	console.log("user = ", user);
+	try {
+		getRepositories((repos: IEntity.Repo[]) => {
+			console.log("repos = ", repos);
+			getBranches((branches: IEntity.Branch[]) => {
+				console.log("branches = ", branches);
+				getCommits((commits: IEntity.Commit[]) => {
+					console.log("commits = ", commits);
+				}, branches[0].id);
+			}, repos[0].id);
+		}, user.username);
+	} catch (err: any) {
+		console.error("[UNIVERSAL][❌] : ", err.message);
+	}
+}, 123);

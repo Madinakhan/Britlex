@@ -1,5 +1,5 @@
-import { users, repositories, branches, commits, TIME } from "./constants";
-import { IEntity } from "./types";
+import { users, repositories, branches, commits, TIME } from "../constants";
+import { IEntity } from "../types";
 
 export const getUser = (userID: number) =>
 	new Promise<IEntity.User>((resolve, reject) => {
