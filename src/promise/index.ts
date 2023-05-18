@@ -21,23 +21,18 @@ const displayUser = (user: IEntity.User) => {
 	return getRepositories("hello world");
 };
 
+const displayErr = (err: Error) => {
+	console.error("[UNIVERSAL][❌] : ", err.message);
+};
+
 /* PROMISE */
-getUser(122223)
-	.then((user) => {
-		console.log("user = ", user);
-		return getRepositories("hello world");
-	})
-	.then((repos) => {
-		console.log("repos = ", repos);
-		return getBranches(repos[0].id);
-	})
-	.then((branches) => {
-		console.log("branches = ", branches);
-		return getCommits(branches[0].id);
-	})
-	.then((commits) => {
-		console.log("commits = ", commits);
-	})
-	.catch((err: Error) => {
-		console.error("[UNIVERSAL][❌] : ", err.message);
-	});
+function explainPromise() {
+	getUser(123)
+		.then(displayUser)
+		.then(displayRepositories)
+		.then(displayBranches)
+		.then(displayCommits)
+		.catch(displayErr);
+}
+
+explainPromise();

@@ -1,29 +1,43 @@
+import { getBranches, getCommits, getRepositories, getUser } from "./backend";
+import { IEntity } from "../types";
+
+// Display functions
+const displayCommits = (commits: IEntity.Commit[]) => {
+	console.log("commits = ", commits);
+};
+
+const displayBranches = (branches: IEntity.Branch[]) => {
+	console.log("branches = ", branches);
+	return getCommits(branches[0].id);
+};
+
+const displayRepositories = (repos: IEntity.Repo[]) => {
+	console.log("repos = ", repos);
+	return getBranches(repos[0].id);
+};
+
+const displayUser = (user: IEntity.User) => {
+	console.log("user = ", user);
+	return getRepositories("hello world");
+};
+
+const displayErr = (err: Error) => {
+	console.error("[UNIVERSAL][❌] : ", err.message);
+};
+
 /* PROMISE */
-
-function createPromise(num: number) {
-	return new Promise<number>((res, rej) => {
-		setTimeout(() => {
-			if (num === 3) rej(new Error("Error created at num 3"));
-			res(num);
-		}, num * 1000);
-	});
-}
-
-function init() {
-	const promises: Promise<number>[] = [];
-
-	for (let i = 1; i <= 5; i++) {
-		const promise = createPromise(i);
-		promises.push(promise);
+async function explainAsycn() {
+	try {
+		const user = await getUser(123);
+		const repos = await displayUser(user); // .then(displayUser)
+		const branches = await displayRepositories(repos); // .then(displayRepositories)
+		const commits = await displayBranches(branches); // .then(displayBranches)
+		displayCommits(commits); // .then(displayCommits)
+	} catch (err: any) {
+		displayErr(err);
 	}
-
-	Promise.all(promises)
-		.then((values) => {
-			console.log("values = ", values);
-		})
-		.catch((err: Error) => {
-			console.log(`[ERROR][❌]  ${err.message}`);
-		});
 }
 
-init();
+explainAsycn();
+
+localStorage.setItem("key", JSON.stringify("[1, 2, 3]"));
