@@ -1,6 +1,6 @@
 /* PROMISE */
 
-function createPromise1(num: number) {
+function createPromise(num: number) {
 	return new Promise<number>((res, rej) => {
 		setTimeout(() => {
 			if (num === 3) rej(new Error("Error created at num 3"));
@@ -9,7 +9,7 @@ function createPromise1(num: number) {
 	});
 }
 
-function init1() {
+function init() {
 	const promises: Promise<number>[] = [];
 
 	for (let i = 1; i <= 5; i++) {
@@ -17,7 +17,7 @@ function init1() {
 		promises.push(promise);
 	}
 
-	Promise.all(promises)
+	Promise.race(promises)
 		.then((values) => {
 			console.log("values = ", values);
 		})
@@ -26,4 +26,4 @@ function init1() {
 		});
 }
 
-init1();
+init();

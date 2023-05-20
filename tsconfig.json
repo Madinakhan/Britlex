@@ -2,7 +2,7 @@
 	"compilerOptions": {
 		"target": "ES6",
 		"lib": ["ESNext", "ESNext.Array", "DOM"],
-		"module": "CommonJS",
+		"module": "ES6",
 		"outDir": "./dist",
 		"strictPropertyInitialization": false,
 		"esModuleInterop": true,

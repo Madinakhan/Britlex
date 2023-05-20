@@ -48,3 +48,7 @@
 # [Examine-6](https://bit.ly/3VWwhte)
 
 # [Github Webpack](https://github.com/arslonbekXX/shop.git))
+
+# [Fake API USERS](https://jsonplaceholder.typicode.com/users)
+
+# [Fake API USER](https://jsonplaceholder.typicode.com/users/1)
