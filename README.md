@@ -1,4 +1,4 @@
-# ---------- 20.05.23 ----------(100)
+# ---------- 23.05.23 ----------(101)
 
 # JS Advanced
 
@@ -15,29 +15,6 @@
     ✅ Backend && AJAX && Fetch
     ✅ Clean Code
 
-## Async JS
-
-        Asynchronous(non-blocking) vs Synchronous(blocking) 👍🏻
-        setTimeout 👍🏻
-        Patterns
-                ✅ Callbacks 👍🏻
-                ✅ Promises
-                ✅ Async / await
-        Callbacks 👍🏻
-        Callback Hell 👍🏻
-        Promises
-                ✅ Pending 👍🏻
-                ✅ Resolve 👍🏻
-                ✅ Rejected
-                ✅ than
-                ✅ catch
-                ✅ finally
-                ✅ Promise.all
-                ✅ Promise.rice
-        Replacing Callbacks with Promises 👍🏻
-        Parallel Promises
-        Simple example with DOM
-
 # AJAX - Asynchronous JavaScript And XML
 
         ✅ Simple example AJAX Request
@@ -45,10 +22,4 @@
         ✅ explain fetch
         ✅ Simple example with fetch
 
-# [Examine-6](https://bit.ly/3VWwhte)
-
-# [Github Webpack](https://github.com/arslonbekXX/shop.git))
-
-# [Fake API USERS](https://jsonplaceholder.typicode.com/users)
-
-# [Fake API USER](https://jsonplaceholder.typicode.com/users/1)
+# [Fake API](https://jsonplaceholder.typicode.com/users)
