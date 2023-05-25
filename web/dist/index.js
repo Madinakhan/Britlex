@@ -8,22 +8,61 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-window.addEventListener("load", () => __awaiter(void 0, void 0, void 0, function* () {
-    const res = yield fetch("http://localhost:8080/users");
-    const users = (yield res.json()).data;
-    console.log(users);
-    renderUsers(users);
+const updateUserBtn = document.querySelector("#update_user_btn");
+const getUsersBtn = document.querySelector("#get_users_btn");
+const addUserBtn = document.querySelector("#add_user");
+const baseURL = "http://10.10.2.36:8080/api/users";
+function delay(time = 1000) {
+    return new Promise((res) => {
+        setTimeout(() => res(20), time);
+    });
+}
+const mockUser = {
+    address: {
+        state: "UZB",
+        city: "Tashkent",
+    },
+    username: "arslonbek alimbaev",
+    job: "PDP Mentor",
+    email: "ars@domain.com",
+    age: 10,
+    name: "arslonbek",
+};
+getUsersBtn.addEventListener("click", (e) => __awaiter(void 0, void 0, void 0, function* () {
+    yield universal(e.target, "Loading Users...", () => __awaiter(void 0, void 0, void 0, function* () {
+        const res = yield fetch(baseURL);
+        const { data } = yield res.json();
+        yield delay();
+        console.log("data = ", data);
+    }));
 }));
-function renderUsers(users) {
-    const ul = document.createElement("ul");
-    for (let { email, id, name, username } of users) {
-        const li = document.createElement("li");
-        li.innerHTML = `
-       <span>${username}</span>
-       <span>${name}</span>
-       <a href="/public/user.html?id=${id}" >${email}</a>
-  `;
-        ul.appendChild(li);
-    }
-    document.body.replaceChild(ul, document.body.children[0]);
+updateUserBtn === null || updateUserBtn === void 0 ? void 0 : updateUserBtn.addEventListener("click", (e) => __awaiter(void 0, void 0, void 0, function* () {
+    yield universal(e.target, "Loading Users...", () => __awaiter(void 0, void 0, void 0, function* () {
+        const res = yield fetch(`${baseURL}/1bf73e6e-1a76-4a68-a05a-d2a07b1ab0d6`, {
+            method: "PUT",
+            body: JSON.stringify(mockUser),
+            headers: {
+                "content-type": "application/json",
+            },
+        });
+        const { data } = yield res.json();
+        yield delay();
+        console.log("data = ", data);
+    }));
+}));
+addUserBtn === null || addUserBtn === void 0 ? void 0 : addUserBtn.addEventListener("click", () => { });
+function universal(btn, loadingMsg, fetchFn) {
+    return __awaiter(this, void 0, void 0, function* () {
+        try {
+            const defaultText = btn.innerText;
+            btn.innerText = loadingMsg;
+            btn.disabled = true;
+            yield fetchFn();
+            btn.innerText = defaultText;
+            btn.disabled = false;
+        }
+        catch (err) {
+            console.error(err);
+        }
+    });
 }
