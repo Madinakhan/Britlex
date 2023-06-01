@@ -1,4 +1,4 @@
-# ---------- 30.05.23 ----------(103)
+# ---------- 1.06.23 ----------(104)
 
 # JS Advanced
 
@@ -7,18 +7,9 @@
     ✅ Prototype && Prototype Chain 👍🏻
     ✅ Promises && Async/Await 👍🏻
     ✅ Getters && Setters 👍🏻
-    ✅ Backend && AJAX && Fetch (2)
-    ✅ JS Execution && Event Loop (1.5)
-    ✅ Functional Programming && Closure (1.5)
+    ✅ Backend && AJAX && Fetch (2) 👍🏻
+    ✅ JS Execution && Event Loop (1.5) 👍🏻
+    ✅ Functional Programming && Closure (1.5) 
     ✅ JS Modules (.3)
     ✅ NPM Package (.3)
     ✅ Clean Code (.3)
-
-# AJAX - Asynchronous JavaScript And XML
-
-        ✅ Simple example AJAX Request
-        ✅ JSON - JavaScript object notation
-        ✅ explain fetch
-        ✅ Simple example with fetch
-
-# [Fake API](https://jsonplaceholder.typicode.com/users)
