@@ -13,6 +13,9 @@
 		"noImplicitThis": false,
 		"alwaysStrict": true,
 		"skipLibCheck": true,
-		"emitDecoratorMetadata": false
+		"emitDecoratorMetadata": false,
+		"baseUrl": "src/",
+		"rootDir": "src",
+		"moduleResolution": "node"
 	}
 }
