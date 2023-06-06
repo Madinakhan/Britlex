@@ -4,8 +4,8 @@
 
 ## NPM Package
 
-    ✅ what is semantic version
-    ✅ what are [^] | [~]
+    ✅ what is semantic version 👍🏻
+    ✅ what are [^] | [~] 👍🏻
     ✅ view dependencies of package
     ✅ view versions of package
 
