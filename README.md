@@ -1,19 +1,36 @@
-# ---------- 05.06.23 ----------(106)(Examine-7)
+# ---------- 06.06.23 ----------(107)
 
-# JS Advanced
+## (Examine-7)(https://bit.ly/3NhmOdG)
 
-    ✅ Expression vs Statement 👍🏻
-    ✅ OOP && Object.create && Object.assign 👍🏻
-    ✅ Prototype && Prototype Chain 👍🏻
-    ✅ Promises && Async/Await 👍🏻
-    ✅ Getters && Setters 👍🏻
-    ✅ Backend && AJAX && Fetch (2) 👍🏻
-    ✅ JS Execution && Event Loop (1.5) 👍🏻
-    ✅ Functional Programming && Closure && Pure Function (1.5)
-    ✅ JS Modules (.3)
-    ✅ NPM Package (.3)
-    ✅ Clean Code (.3)
+## NPM Package
 
-# JS Pure Function
+    ✅ what is semantic version
+    ✅ what are [^] | [~]
+    ✅ view dependencies of package
+    ✅ view versions of package
 
-    ✅ https://www.youtube.com/watch?v=dZ41D6LDSBg&t=183s
+## What Is React ?
+
+         ✅ JSX
+         ✅ Component
+         ✅ FAST FAST FAST DOM (Vertual DOM)
+
+## Explain React Folder Structure
+
+         ✅ React eject
+
+## JSX
+
+         ✅ React.createElement
+         ✅ babeljs.io
+         ✅ js expression with JSX
+         ✅ https://reactjs.org/docs/jsx-in-depth.html#gatsby-focus-wrapper
+
+## Class Component
+
+         ✅ Fragment
+
+## Using Bootstrap With React
+
+         ✅ download
+         ✅ import
