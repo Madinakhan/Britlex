@@ -1,0 +1,66 @@
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 70px 0;
+  justify-content: space-between;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.header .nav {
+  display: flex;
+  gap: 25px;
+  font-size: 16px;
+}
+.header .nav .menu {
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.header .nav .menu:hover {
+  color: rgba(0, 0, 0, 0.5960784314);
+}
+.header .talk-btn {
+  padding: 17px 57px;
+  border: 2px solid #263238;
+  border-radius: 5px;
+  font-size: 22px;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.header .talk-btn:hover {
+  transform: scale(1.03);
+}
+.header .menu-icon {
+  font-size: 30px;
+  color: #000;
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .header {
+    padding: 30px 0;
+  }
+  .header .nav {
+    font-size: 14px;
+  }
+  .header .talk-btn {
+    padding: 12px 40px;
+  }
+}
+@media (max-width: 767px) {
+  .header {
+    padding: 30px 0;
+  }
+  .header .nav,
+  .header .talk-btn {
+    display: none;
+  }
+  .header .nav.show {
+    display: flex;
+  }
+  .header .menu-icon {
+    display: flex;
+  }
+}/*# sourceMappingURL=header.css.map */
