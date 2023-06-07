@@ -1,27 +1,24 @@
 import React from "react";
 import "./header.scss";
-import logo from "./logo.png";
+import logo from "./Britlex.png";
+import menu from "./Group 28.png"
 
-export default class Header extends React.Component {
-  render() {
-    return (
-      <header className="header">
-        <img src={logo} alt="" />
-        <nav className="nav">
-          <div className="menu">Home</div>
-          <div className="menu">Skills</div>
-          <div className="menu">About us</div>
-          <div className="menu">Pricing</div>
-          <div className="menu">Contacts</div>
-          <div className="close-btn">
-            <i className="fa-solid fa-xmark"></i>
-          </div>
-        </nav>
-        <div className="talk-btn">Let's Talk</div>
-        <div className="menu-icon menu-btn">
-          <i className="fa-solid fa-bars"></i>
-        </div>
-      </header>
-    );
-  }
+export default class Header extends React.Component{
+    render(){
+        return (
+            
+            <header className="header">
+                <div className="logo"><img src={logo} alt="logo"/></div>
+                <div className="menu"><img src={menu} alt="menu"/></div> 
+                <nav>
+                    <a href="#">Home</a>
+                    <a href="#">Skills</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">Contacts</a>
+                </nav>
+                <div className="header-button">Let’s Talk</div>
+            </header>       
+        )
+    }
 }
