@@ -4,7 +4,7 @@ import pricingImg1 from "./Online test-bro 1.png";
 import pricingImg2 from "./Lesson-bro 1.png";
 import pricingImg3 from "./Webinar-bro 2.png";
 
-export default class Home extends React.Component {
+export default class Pricing extends React.Component {
   render() {
     return (
       <div className="pricing" id="pricing">

@@ -1,0 +1,152 @@
+.contact {
+  width: 100%;
+  display: flex;
+  height: 500px;
+  align-items: center;
+  gap: 40px;
+  margin: 50px 0;
+
+  .contact-left {
+    width: 35%;
+    height: 100%;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .contact-right {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    gap: 30px;
+
+    .contact-title {
+      margin-right: auto;
+      font-weight: 600;
+      font-size: 48px;
+      line-height: 80px;
+    }
+
+    p {
+      font-size: 20px;
+      line-height: 30px;
+      color: #8f95a5;
+    }
+
+    .inputs {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      width: 100%;
+    }
+
+    .email-input {
+      width: 100%;
+      height: 80px;
+      border: 1px solid #8f95a5;
+      border-radius: 10px;
+      padding: 0 30px;
+      font-size: 17px;
+      outline: none;
+    }
+
+    .submit-input {
+      font-size: 20px;
+      padding: 25px 50px;
+      border-radius: 10px;
+      border: 0;
+      cursor: pointer;
+      transition: all 0.2s;
+      background: #263238;
+      color: #fff;
+
+      &:hover {
+        transform: scale(1.03);
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .contact {
+    flex-direction: column;
+    text-align: center;
+    height: fit-content;
+
+    .contact-left {
+      width: 100%;
+    }
+
+    .contact-right {
+      text-align: center;
+      width: 100%;
+
+      .contact-title {
+        margin-left: auto;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .contact {
+    flex-direction: column;
+    text-align: center;
+    .contact-left {
+      width: 100%;
+    }
+
+    .contact-right {
+      text-align: center;
+      width: 100%;
+
+      .contact-title {
+        margin-right: auto;
+        font-size: 30px;
+      }
+
+      p {
+        font-size: 14px;
+        line-height: 21px;
+        color: #8f95a5;
+      }
+
+      .inputs {
+        .email-input {
+          height: 50px;
+        }
+
+        .submit-input {
+          height: 50px;
+          font-size: 13px;
+          padding: 0 50px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 567px) {
+  .contact {
+    .contact-right {
+      .inputs {
+        flex-direction: column;
+
+        .email-input {
+          height: 50px;
+        }
+
+        .submit-input {
+          height: 50px;
+          font-size: 13px;
+          padding: 0 50px;
+        }
+      }
+    }
+  }
+}

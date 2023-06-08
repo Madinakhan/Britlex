@@ -21,7 +21,7 @@ export default class Header extends React.Component {
           {menu("Skills", "skills")}
           {menu("About Us", "about")}
           {menu("Pricing", "pricing")}
-          {menu("Contacts", "contacts")}
+          {menu("Contacts", "contact")}
           <div className="close-btn">
             <i className="fa-solid fa-xmark"></i>
           </div>

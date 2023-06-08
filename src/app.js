@@ -4,6 +4,8 @@ import Home from "./components/home/home";
 import Skills from "./components/skills/skills";
 import About from "./components/about/about";
 import Pricing from "./components/pricing/pricing";
+import Contact from "./components/contact/contact";
+import Footer from "./components/footer/footer";
 
 export default class App extends React.Component {
   render() {
@@ -14,6 +16,8 @@ export default class App extends React.Component {
         <Skills />
         <About />
         <Pricing />
+        <Contact/>
+        <Footer/>
       </div>
     );
   }
