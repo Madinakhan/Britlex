@@ -1,10 +1,12 @@
 .about {
   display: flex;
   gap: 90px;
+  padding: 100px 0;
   .left {
     width: 56%;
     h3{
         font-size: 48px;
+        margin-bottom: 20px;
     }
     p{
         font-size: 18px;

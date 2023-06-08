@@ -1,24 +1,36 @@
-import React from "react";
+import React, { createRef } from "react";
 import "./header.scss";
-import logo from "./Britlex.png";
-import menu from "./Group 28.png"
+import logo from "./logo.png";
+import menuImg from "./Group 28.png";
 
-export default class Header extends React.Component{
-    render(){
-        return (
-            
-            <header className="header">
-                <div className="logo"><img src={logo} alt="logo"/></div>
-                <div className="menu"><img src={menu} alt="menu"/></div> 
-                <nav>
-                    <a href="#">Home</a>
-                    <a href="#">Skills</a>
-                    <a href="#">About Us</a>
-                    <a href="#">Pricing</a>
-                    <a href="#">Contacts</a>
-                </nav>
-                <div className="header-button">Let’s Talk</div>
-            </header>       
-        )
-    }
+function menu(text, id) {
+  return (
+    <a href={`#${id}`} className="menu">
+      {text}
+    </a>
+  );
+}
+
+export default class Header extends React.Component {
+  render() {
+    return (
+      <header className="header">
+        <img src={logo} alt="" />
+        <nav className="nav">
+          {menu("Home", "home")}
+          {menu("Skills", "skills")}
+          {menu("About Us", "about")}
+          {menu("Pricing", "pricing")}
+          {menu("Contacts", "contacts")}
+          <div className="close-btn">
+            <i className="fa-solid fa-xmark"></i>
+          </div>
+        </nav>
+        <div className="talk-btn">Let's Talk</div>
+        <div className="menu-icon menu-btn">
+          <img src={menuImg}/>
+        </div>
+      </header>
+    );
+  }
 }

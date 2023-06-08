@@ -1,23 +1,26 @@
 import React from "react";
 import "./home.scss";
-import homeImg from "./Learning languages-bro 1.png";
+import img from "./img.png";
 
-export default class Home extends React.Component {
+export default class Landing extends React.Component {
   render() {
     return (
-      <section>
-        <div className="left">
-          <h1>Learn Any Foreign Language</h1>
+      <div className="home" id="home">
+        <div className="home-left">
+          <h1>
+            Learn Any <br /> Foreign <br />
+            Language
+          </h1>
           <p>
             With our teachers who write a program for each student, you will be
-            able to make your first sketch after the first lesson.
+            able to make yourfirst sketch after the first lesson.
           </p>
-          <button>Get started</button>
+          <div className="get-started">Get started</div>
         </div>
-        <div className="home-img">
-          <img src={homeImg} />
+        <div className="home-right">
+          <img src={img} alt="Home image" />
         </div>
-      </section>
+      </div>
     );
   }
 }

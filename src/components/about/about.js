@@ -5,7 +5,7 @@ import aboutImg from "./Business competition-bro 1.png";
 export default class About extends React.Component {
   render() {
     return (
-      <div className="about">
+      <div className="about" id="about">
         <div className="left">
           <h3>About Us</h3>
           <p>
